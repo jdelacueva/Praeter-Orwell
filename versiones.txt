@@ -1,0 +1,10 @@
+Versiones del presente documento
+================================
+
+Versión 0.1 (en desarrollo)
+---------------------------
+
+Tareas pendientes para la versión 0.1:
+
+.. todolist::
+

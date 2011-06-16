@@ -1,0 +1,65 @@
+Praeter Orwell
+==============
+
+Praeter Orwell es un proyecto que propone un marco básico para
+desarrollar posteriormente aplicaciones de control del poder político
+por parte de los ciudadanos mediante la gestión de la información
+jurídica proviniente de las personas y organismos públicos.
+
+Su principal objetivo es la interoperabilidad entre los proyectos de
+opendata y opengovernment.
+
+La referencia a un marco básico permite:
+
+- Colocar conceptualmente los diferentes proyectos en función de las
+  personas y organismos intervinientes, así como por la información
+  que producen las personas utilizando los organismos públicos.
+
+- Reutilizar capas ya existentes de extracción, estructura, gestión o
+  puesta a disposición de datos.
+
+- Incidir en los campos de personas, organismos o información que
+  todavía no se hallan cubiertos por otros proyectos.
+
+.. topic:: Un ejemplo de datos:
+
+    En el `siguiente enlace`_ usted puede descargar un archivo con los
+    nombres, apellidos, fechas de nombramiento y cese y enlace a la
+    norma del Boletín oficial del Estado de nombramiento de los
+    presidentes del Gobierno desde 1978 hasta la fecha. De esta
+    manera, nadie jamás tendrá nuevamente que extraer estos datos y
+    cualquiera que lo desee puede ponerlos a disposición pública. Se
+    trata de un trabajo ya hecho y que no debe nuevamente volverse a
+    hacer.
+
+    El archivo puede ser utilizado por cualquier proyecto de gestión o
+    visualización de datos.
+
+.. _siguiente enlace: http://opengov.es/package/presidentes-gobierno_es
+
+
+Partes del proyecto
+-------------------
+
+Las partes en las que se divide este proyecto son las siguientes:
+
+.. toctree::
+   :maxdepth: 2
+
+   datos/index
+   obtencion/index
+   estructura/index
+   almacenamiento/index
+   gestion/index
+   disposicion/index
+   ayuda/index
+   README
+   LICENSE
+   versiones
+
+Indices y tablas
+================
+
+* :ref:`genindex`
+* :ref:`search`
+

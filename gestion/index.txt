@@ -1,0 +1,20 @@
+¿Cómo gestionar los datos?
+==========================
+
+.. todo::
+
+   Gestión de los datos
+
+Aplicaciones web
+----------------
+
+El Proyecto Kelsen.
+~~~~~~~~~~~~~~~~~~~
+
+.. todo::
+
+   Explicación del proyecto.
+
+.. topic:: Página web del proyecto:
+
+    http://derecho-internet.org/proyectos/kelsen

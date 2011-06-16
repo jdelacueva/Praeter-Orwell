@@ -1,0 +1,67 @@
+¿Cómo puedo ayudar?
+===================
+
+Se puede ayudar de muchísimas maneras. Todas las personas tienen
+acceso a datos que otros no tienen y pueden ponerlos a disposición
+pública. Hay miles de ejemplos cotidianos como por ejemplo el nombre y
+apellidos del alcalde y concejales de una localidad o la relación de
+sus edificios públicos y direcciones de los mismos. O la relación
+histórica de alcaldes, o las fechas de los planes de urbanismo.
+
+Lo recomendable es consultar qué datos son objeto de este proyecto y
+verificar que no estén ya puestos a disposición.
+
+Obteniendo datos
+----------------
+
+.. todo::
+
+   Cómo obtener datos.
+
+Luchando por una Ley de transparencia
+-------------------------------------
+
+Necesitamos una Ley de transparencia de los datos públicos y quienes
+en este momento se hallan más involucrados en esta reivindicación son
+la `Coalición Pro Acceso`_ y la `Asociación Pro Bono Público`_. Es por
+ello que apoyarles a ellos es ayudar a este proyecto, pues nos mueven
+intereses comunes.
+
+.. _`Coalición Pro Acceso`: http://www.proacceso.org/
+.. _`Asociación Pro Bono Público`: http://blog.probp.org/
+
+Mejorando el código de la estructura de los datos
+-------------------------------------------------
+
+.. todo::
+
+   Cómo mejorar el código.
+
+Creando aplicaciones de gestión de los datos
+--------------------------------------------
+
+.. todo::
+
+   Cómo crear aplicaciones.
+
+Alojando réplicas de los datos
+------------------------------
+
+.. todo::
+
+   Cómo alojar réplicas de los datos
+
+Abriendo sus datos
+------------------
+
+Si usted dispone de datos de los que nos interesan por haberlos ya
+extraído, agradeceríamos mucho su contribución para no duplicar
+esfuerzos.
+
+Haciendo un fork del presente documento
+---------------------------------------
+
+El presente documento se halla alojado en
+http://github.com/jdelacueva/praeter-orwell Su licencia es libre así
+que sería muy interesante que hiciera un fork del mismo y contribuyese
+a su mejora.

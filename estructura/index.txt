@@ -1,0 +1,41 @@
+¿Cómo han de estructurarse los datos?
+=====================================
+
+Archivos CSV
+------------
+
+.. todo::
+
+   Propuesta para columnas de archivos CSV.
+
+Campos de bases de datos SQL
+----------------------------
+
+.. todo::
+
+   Propuesta para campos de bases de datos SQL..
+
+Ontología Jurídica Libre
+------------------------
+
+La Ontología Jurídica Libre contiene las clases y propiedades de un
+vocabulario de Derecho utilizando las tecnologías RDF y OWL del
+W3C. Se trata de un proyecto que se está desarrollando en el ámbito
+del `Laboratorio del Procomún`_, en el `Medialab-Prado`_ de Madrid.
+
+Su propósito es representar el vocabulario de los términos de los
+datos objeto de Praeter Orwell y además, las abstracciones necesarias
+para enlazar o extender el vocabulario con instituciones de otros
+Ordenamientos.  
+
+.. topic:: Página web del proyecto:
+
+    http://purl.org/derecho
+
+Las clases y propiedades de la Ontología Jurídica Libre se utilizan
+para modelar los datos tanto en notación RDF, turtle, n3... así como
+para incrustar RDFa en el código HTML de las páginas web que sirvan
+los datos.
+
+.. _Laboratorio del Procomún: http://medialab-prado.es/laboratorio_del_procomun
+.. _Medialab-Prado: http://medialab-prado.es/

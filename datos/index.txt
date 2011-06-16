@@ -1,0 +1,78 @@
+¿Qué datos necesitamos?
+=======================
+
+Para cualquier supuesto de control del poder por parte de los
+ciudadanos utilizando la tecnología a nuestro alcance, los datos que
+necesitamos se indican en la siguiente tabla:
+
++----------------+----------------+---------------+--------------------+
+|Poder           |Personas        |Organos        |Información         |
+|                |                |               |producida           |
++================+================+===============+====================+
+|Ejecutivo       |Políticos y     |Gobierno y     |Actos               |
+|                |funcionarios    |órganos        |administrativos y   |
+|                |                |administrativos|reglamentos         |
++----------------+----------------+---------------+--------------------+
+|Legislativo     |Parlamentarios  |Parlamentos    |Leyes               |
++----------------+----------------+---------------+--------------------+
+|Judicial        |Jueces y        |Juzgados y     |Resoluciones        |
+|                |Magistrados     |Tribunales     |judiciales          |
++----------------+----------------+---------------+--------------------+
+|Otros órganos   |Miembros        |Organos        |Nombre de la        |
+|constitucionales|(Magistrados,   |               |información         |
+|                |Consejeros ...) |               |(sentencias,        |
+|                |                |               |informes...)        |
++----------------+----------------+---------------+--------------------+
+|                       Organización territorial                       |
++----------------+----------------+---------------+--------------------+
+|Legislativos    |Parlamentarios  |Parlamentos    |Normas autonómicas  |
+|autonómicos     |                |               |                    |
++----------------+----------------+---------------+--------------------+
+|Ejecutivos      |Políticos y     |Gobierno y     |Actos               |
+|autonómicos     |funcionarios    |órganos        |administrativos y   |
+|                |                |administrativos|reglamentos         |
++----------------+----------------+---------------+--------------------+
+|Administración  |Diputados       |Diputaciones   |Normativa local     |
+|local           |provinciales,   |provinciales y |                    |
+|                |alcaldes,       |municipios     |                    |
+|                |concejales      |               |                    |
++----------------+----------------+---------------+--------------------+
+
+Se busca obtener, estructurar y poner a disposición los datos más
+básicos, por ejemplo: 
+
+- La relación de diputados del Congreso desde la legislatura
+  constituyente hasta la fecha.
+
+- Los nombres de los Ministerios de la Administración central del
+  Estado desde 1978 y sus reestructuraciones.
+
+- La relación de `Leyes orgánicas`_ desde 1978 hasta la fecha.
+
+.. _Leyes orgánicas: http://opengov.es/package/leyes_organicas_es
+ 
+De esta manera y sobre estos datos, cualquier persona podrá
+desarrollar aplicaciones para el control del poder político. Es obvio
+que si no se tiene una relación de parlamentarios y sus correos
+electrónicos, no puede promoverse una campaña de envío de
+reivindicaciones a los mismos.
+
+Alguna de esta información se halla ya extraida pero en muchos casos
+quienes lo han hecho luego no la ponen a disposición de los demás,
+quedando dichos datos cerrados.
+
+
+¿Qué datos tenemos ya?
+----------------------
+
+.. todo::
+
+   Relación de datos que ya tenemos liberados.
+
+Otra información
+----------------
+
+El presente proyecto no entrará en datos adicionales a los aquí
+mostrados puesto que su objetivo es el de generar un marco básico que
+permita la interoperabilidad de otros proyectos.
+

@@ -1,0 +1,41 @@
+¿Dónde y cómo almacenar los datos?
+==================================
+
+De lo que se trata es de poder obtener en cualquier momento y de la
+manera más fácil posible, una copia de todos los datos, con
+independencia de su lugar de almacenamiento.
+
+El almacenamiento de los datos puede realizarse en el servidores que
+se desee.
+
+Los sistemas de almacenamiento pueden ser muchos y variados siendo
+válidos los siguientes sistemas:
+
+- Google Docs.
+- Github.
+- Un repositorio en un servidor propio.
+- Un archivo csv enlazado desde cualquier página.
+
+El enlace a los datos: opengov.es
+---------------------------------
+
+No obstante, una vez que los datos se han estructurado correctamente,
+hay que coordinar que puedan ser encontrados y ello se puede hacer de
+dos maneras:
+
+- Bien enlazándolo desde http://opengov.es. Señalamos unos ejemplos de
+  datos ya obtenidos y enlazados desde Opengov.es:
+
+  - `Leyes orgánicas`_.
+  - `Leyes ordinarias`_.
+  - `Reales decretos legislativos`_.
+
+.. _Leyes orgánicas: http://opengov.es/package/leyes_organicas_es
+.. _Leyes ordinarias: http://opengov.es/package/leyes_ordinarias_es
+.. _Reales decretos legislativos: http://opengov.es/package/reales_decretos_legislativos_es
+
+- Bien instalando el software CKAN en un servidor propio y enlazándolo
+  desde el mismo. En este caso, hay que contactar bien con la Open
+  Knowledge Foundation, bien con http://opengov.es para señalar la
+  existencia de una instancia de CKAN y, de esa manera, proceder al
+  intercambio de metadatos entre las instancias.

@@ -1,0 +1,131 @@
+¿Cómo poner los datos a disposición pública?
+============================================
+
+Los datos se han de poner a disposición de todos cumpliendo una serie
+de requisitos. No cabe, por ejemplo, utilizar archivos en formato .pdf
+con imágenes incrustadas. Tampoco, por ejemplo, archivos para cuyo
+acceso se necesite registrarse.
+
+Dado que no somos una entidad pública fuente primaria de datos sino
+que vamos obteniendo los que podemos arañar a las administraciones
+públicas y poderes del Estado, no han de cumplirse los requisitos de
+Open Data, pero sí los que señalamos después de explicarlos.
+
+Requisitos de Open Data
+-----------------------
+
+Si bien el presente proyecto es un proyecto ciudadano, en el mismo se
+debe intentar cumplir al máximo los principios señalados por el `Open
+Government Working Group <http://www.opengovdata.org/>`_, que son los
+siguientes:
+
+http://wiki.opengovdata.org/index.php/OpenDataPrinciples
+
+**Completitud:**
+    Todo dato público debe ser accesible. Los datos públicos son datos
+    no sometidos a límites derivadas de protección de la intimidad
+    personal, de seguridad u otros derechos preferentes.
+
+**Primariedad:**
+    Los datos puestos a disposición son los obtenidos de las fuentes
+    primarias, con el mayor nivel posible de granulosidad, sin que se
+    ofrezcan agregados o modificados.
+
+**Premura:**
+    Los datos deben ponerse a disposición pública tan pronto como sea
+    posible para preservar el valor de los mismos.
+
+**Accesibilidad:**
+    Los datos han de ser accesibles para los mayores rangos de
+    usuarios y propósitos.
+
+**Tratamiento automatizado:**
+    Los datos deberán estar razonablemente estructurados para permitir
+    su tratamiento automatizado.
+
+**No discriminación:**
+    Los datos estarán accesibles universalmente, sin necesidad de
+    registro para acceder a los mismos.
+
+**Formato no propietario:**
+    Los datos han de hallarse accesibles en un formato del que ninguna
+    entidad tenga un control exclusivo.
+
+**Licencia libre:**
+    Los datos no se hallarán sujetos a derechos de autor, propiedad
+    industrial o secreto comercial. Se podrá admitir una razonable
+    limitación por cuestiones de intimidad personal, seguridad
+    oderechos preferentes.
+
+El cumplimiento de los anteriores requisitos ha de poder ser
+revisable, entendiendo por tal:
+
+1. Deberá existir una persona de contacto para responder a los
+usuarios que intentan utilizar los datos.
+
+2. Deberá existir una persona de contacto para responder de las quejas
+sobre violación de los principios.
+
+3. Deberá existir un órgano administrativo o judicial con potestad de
+verificación del cumplimiento de los anteriores requisitos.
+
+Requisitos para el proyecto Praeter Orwell
+------------------------------------------
+
+Los siguientes requisitos se inspiran en los señalados para Open Data
+y son de dos tipos: técnicos y jurídicos:
+
+Formato y aspectos técnicos
+***************************
+
+**Derivados de datos primarios:**
+    Los datos puestos a disposición son los obtenidos de las fuentes
+    primarias, con el mayor nivel posible de granulosidad, pudiéndose,
+    además, ofrecerse agregados y modificados pero siempre
+    documentando la agregación y modificación.
+
+**Accesibilidad:**
+    Los datos han de ser accesibles para los mayores rangos de
+    usuarios y propósitos.
+
+**Tratamiento automatizado:**
+    Los datos deberán estar estructurados para permitir su tratamiento
+    automatizado. Se suprime el "razonablemente" estructurados del
+    Open Data, siendo el trabajo de estructurar los datos uno de los
+    cometidos del proyecto.
+
+**No discriminación:**
+    Los datos estarán accesibles universalmente, sin necesidad de
+    registro para acceder a los mismos.
+
+**Puesta a disposición múltiple**
+    Se procurará que todos los datos que se obtengan se pongan a
+    disposición demás mediante tres vías:
+
+    - Archivos CSV de los datos obtenidos.
+
+    - APIs en protocolo REST desde las aplicaciones web de gestión de
+      la información.
+
+    - Sparql desde los gestores de webs semánticas.
+
+Aspectos legales
+****************
+
+**Formato no propietario:**
+    Los datos han de hallarse accesibles en un formato del que ninguna
+    entidad tenga un control exclusivo.
+
+**Licencia libre de los datos:**
+    Los datos no se hallarán sujetos a derechos de autor, propiedad
+    industrial o secreto comercial. Se podrá admitir una razonable
+    limitación por cuestiones de intimidad personal, seguridad
+    o derechos preferentes.
+
+**Licencia libre del derecho sui generis**
+    El derecho sui generis de la base de datos será libre.
+
+**Expresión de si los datos son mera cuestión fáctica**
+   Los meros datos no son susceptibles de ser regulados por la
+   normativa de propiedad intelectual. En el supuesto de que se trate
+   de meros datos fácticos, se procurará expresar esta cuestión.

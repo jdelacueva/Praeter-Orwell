@@ -1,0 +1,24 @@
+Licencia de esta documentación
+==============================
+
+Esta documentación se licencia bajo Creative Commons By-Sa cuyas
+condiciones puede consultar en
+http://creativecommons.org/licenses/by-sa/3.0/es/ y que en esencia y
+sin preguntar al autor:
+
+Usted es libre de:
+
+- Copiar, distribuir y comunicar públicamente la obra.
+- Remezclar — transformar la obra.
+- Hacer un uso comercial de esta obra.
+
+Bajo las condiciones siguientes:
+
+ Reconocimiento — Debe reconocer los créditos de la obra de la manera
+ especificada por el autor o el licenciador (pero no de una manera que
+ sugiera que tiene su apoyo o apoyan el uso que hace de su obra).
+
+ Compartir bajo la misma licencia — Si altera o transforma esta obra,
+ o genera una obra derivada, sólo puede distribuir la obra generada
+ bajo una licencia idéntica a ésta.
+

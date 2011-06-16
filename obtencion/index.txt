@@ -1,0 +1,32 @@
+¿Cómo obtener los datos?
+========================
+
+Scraping
+--------
+
+.. todo::
+
+   Explicación de en qué consiste el scraping.
+
+.. todo:: 
+
+   Herramientas existentes.
+
+   - http://needlebase.com/
+   - http://scraperwiki.com/
+   - http://scrapy.org/
+
+.. todo:: 
+
+   Librerías existentes.
+
+Ley transparencia
+-----------------
+
+.. todo::
+
+   El derecho a saber: Coalición Pro Acceso
+
+   http://www.proacceso.org/
+
+   http://www.access-info.org/es/coalicion-pro-acceso
