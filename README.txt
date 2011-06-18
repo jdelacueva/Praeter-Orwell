@@ -14,17 +14,26 @@ mejorarlo.
 
 Para generar la documentación:
 
-1.- Crear un entorno virtual de Python::
+0.- Obtener el código del proyecto (en caso de no tenerlo ya)::
 
-     $ mkvirtualenv --no-site-packages praeterorwell 
+    $ git clone git://github.com/jdelacueva/Praeter-Orwell.git
 
-2.- Instalar Sphinx::
+1.- Instalar virtualenv para crear entornos virtuales de Python::
 
-     $ easy_install Sphinx
+     $ easy_install --user virtualenv
+
+2.- Crear un entorno virtual de Python::
+
+     $ virtualenv --no-site-packages Praeter-Orwell
+     $ cd Praeter-Orwell
+     $ source bin/activate
+
+3.- Instalar Sphinx::
+
+     (Praeter-Orwell)$ easy_install Sphinx
 
 3.- Generar la documentación::
 
-     $ cd praeterorwell
-     $ make html #para formato html
+     (Praeter-Orwell)$ make html #para formato html
 
-4.- La documentación se hallará construida en formato html en el directorio praeterorwell/_build/html
+4.- La documentación se hallará construida en formato html en el directorio Praeter-Orwell/_build/html
