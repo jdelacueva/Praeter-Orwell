@@ -1,0 +1,30 @@
+Poder ejecutivo
+===============
+
++---------+------------------------+----------------------------------+-----------------------------------+
+|Poder    |Personas                |Organos                           |Información producida              |
++=========+========================+==================================+===================================+
+|Ejecutivo|Políticos y funcionarios|Gobierno y órganos administrativos|Actos administrativos y reglamentos|
++---------+------------------------+----------------------------------+-----------------------------------+
+
+Políticos y funcionarios
+------------------------
+
+- Relación de Presidentes de Gobierno desde 1978 hasta la fecha.
+
+  http://opengov.es/package/presidentes-gobierno_es
+
+- Relación de nombramientos efectuados por Presidencia de Gobierno
+  desde 1978 hasta la fecha.
+
+  https://spreadsheets.google.com/spreadsheet/ccc?key=0AtDiDXlt-a__dEpjTzR0NG5rNDF3SUtOYUpjVUZLcmc&hl=es
+
+Gobierno y órganos administrativos
+----------------------------------
+
+Sin datos.
+
+Actos administrativos y reglamentos
+-----------------------------------
+
+Sin datos.

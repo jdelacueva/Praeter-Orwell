@@ -1,0 +1,6 @@
+Territorio
+==========
+
+Entes territoriales. Comprende comunidades autónomas, provincias y municipios:
+
+ https://spreadsheets.google.com/spreadsheet/ccc?key=0AtDiDXlt-a__dEpjdHpGSnk4TU5hUlE4LWw5ZjJZMHc&hl=es
