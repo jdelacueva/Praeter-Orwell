@@ -3,6 +3,13 @@
 Tutorial
 ========
 
+.. topic:: Atención:
+
+   El tutorial no está completo por lo que sólo puede dar una idea de
+   los pasos a cumplimentar, pero no el detalle.
+
+   Esta nota se suprimirá cuando el tutorial esté completo.
+
 .. sidebar:: Pasos del tutorial:
 
        .. graphviz::
@@ -11,6 +18,8 @@ Tutorial
            "Elegir lista" -> "Obtener datos" ->
            "Archivar datos" -> "Subir datos" -> "Enlazar datos";
            }
+
+
 
 Praeter Orwell es un meta proyecto, esto es, un proyecto de proyectos
 y cuyo fundamento es muy simple ya que consiste en hacer listas de
@@ -65,12 +74,36 @@ central
 
 El lugar del que obtenemos los datos puede ser muy variado. Lo más
 interesante siempre es obtenerlos de fuentes oficiales como, por
-ejemplo, un boletín oficial y, en este caso, el Boletín de
-Cantabria. 
+ejemplo, un boletín oficial y, en este caso, el Boletín Oficial del
+Estado, que es donde se publican los nombramientos de los presidentes
+de las comunidades autónomas.
 
 Otro lugar donde podemos obtener los datos puede ser la Wikipedia,
 consultando la página sobre el asunto y las referencias en las que se
 basa el artículo.
+
+En este caso, utilizaremos la página de consulta del Boletín Oficial
+del Estado: http://www.boe.es/aeboe/consultas/ y le indicamos los
+pasos porque es importante familiarizarse con la búsqueda del BOE, que
+es una fuente primaria para las listas que queremos construir.
+
+En esta página, en la columna de la izquierda, encontramos un enlace a la
+`Sección II`_: Oposiciones y nombramientos desde 1968.
+
+.. _Sección II: http://www.boe.es/aeboe/consultas/bases_datos/personal.php
+
+En el formulario de búsqueda correspondiente al *"Título"*
+introducimos la cadena de texto *`Presidente de la Comunidad Autónoma
+de Cantabria`*. El buscador nos devuelve 4 resultados que enlazan a
+las siguientes páginas:
+
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-2007-12877
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-2003-13028
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-2003-13029
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1999-16220
+
+Ya sabemos que los datos son incompletos, puesto que desde 1978 ha
+habido más presidentes que los que se obtienen de esta búsqueda.
 
 3. Archivar los datos en su ordenador.
 
@@ -104,15 +137,21 @@ Los resultados de la búsqueda nos indican quienes han sido y en qué
 fechas los nombrados, pasando a rellenar la hoja de cálculo, que
 resultaría así:
 
-+--+------+---------+---------+------------------+----------+---+
-|id|nombre|apellido1|apellido2|fecha_nombramiento|fecha_cese|url|
-+--+------+---------+---------+------------------+----------+---+
-| 1|
-+--+------+---------+---------+------------------+----------+---+
-| 2|
-+--+------+---------+---------+------------------+----------+---+
-| 3|
-+--+------+---------+---------+------------------+----------+---+
++--+------------+---------+---------+------------------+----------+-------------------------------------------------------------------------+
+|id|nombre      |apellido1|apellido2|fecha_nombramiento|fecha_cese|url                                                                      |
++==+============+=========+=========+==================+==========+=========================================================================+
+| 1|José Joaquín|Martínez |Sieso    |23-07-1999        |30-06-2003|http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1999-16220|
++--+------------+---------+---------+------------------+----------+-------------------------------------------------------------------------+
+| 2|Miguel Angel|Revilla  |Roiz     |30-06-2003        |02-07-2007|http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-2003-13029|
++--+------------+---------+---------+------------------+----------+-------------------------------------------------------------------------+
+| 3|Miguel Angel|Revilla  |Roiz     |02-07-2007        |          |http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-2007-12877|
++--+------------+---------+---------+------------------+----------+-------------------------------------------------------------------------+
+
+El campo *id* es un campo numérico que se inicia en 1 y que nos
+indicará el número de la fila.
+
+El campo url se rellena con el enlace a la página del BOE donde sale
+el nombramiento.
 
 3. Archivar los datos en nuestro ordenador.
 
@@ -123,7 +162,7 @@ características:
 En el nombre del archivo incluimos la fecha de creación, pero en
 formato año-mes-día, por ejemplo 2011-05-19 más el contenido del
 archivo, con lo que quedaría
-2011-06-19_presidentes-gobierno-cantabria.
+2011-05-19_presidentes-gobierno-cantabria.
 
 Si posteriormente a la fecha de creación del archivo lo modificamos,
 cambiamos entonces el nombre del archivo y lo nombramos de acuerdo a
@@ -166,9 +205,9 @@ Los datos pueden obtenerse de la web del `Ministerio del Interior`_.
 En este caso, se trata de direcciones de oficinas públicas de un
 Ministerio y las columnas que vamos a utilizar son las siguientes:
 
-+--+------+---------+---------+------------------+----------+---+
-|id|nombre|apellido1|apellido2|fecha_nombramiento|fecha_cese|url|
-+--+------+---------+---------+------------------+----------+---+
++--+-------------+----------+---------+---------+-------------+
+|id|nombre_organo|ministerio|provincia|dirección|codigo_postal|
++--+-------------+----------+---------+---------+-------------+
 
 4. Subir los datos a Internet.
 
