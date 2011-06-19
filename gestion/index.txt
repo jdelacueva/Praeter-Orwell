@@ -1,20 +1,47 @@
 ¿Cómo gestionar los datos?
 ==========================
 
-.. todo::
+Los datos se gestionarán de múltiples maneras, si bien esta gestión no
+es el objeto del presente proyecto. De lo que se trata es de que los
+datos se hallen a disposición pública para que los desarrolladores de
+aplicaciones tengan una base desde la que partir.
 
-   Gestión de los datos
+Existen numerosos ejemplos de datos y de cómo utilizarlos, veamos
+algunos:
 
 Aplicaciones web
 ----------------
 
-El Proyecto Kelsen.
+Los proyectos de Abredatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A lo largo de dos años, la Asociación Probono Público ha convocado
+concursos para aplicaciones que gestionasen información pública.
+
+El Proyecto Kelsen
 ~~~~~~~~~~~~~~~~~~~
 
-.. todo::
-
-   Explicación del proyecto.
+El Proyecto Kelsen es un marco de gestión de los datos señalados en
+:ref:`datos` si bien su estado es inicial. Utiliza una base de datos
+relacional (SQL) y está programada en Python utilizando el framework
+Django.
 
 .. topic:: Página web del proyecto:
 
     http://derecho-internet.org/proyectos/kelsen
+
+Campañas políticas
+------------------
+
+Hacktivistas.net también ha utilizado estos datos en campañas de envío
+masivo de correos electrónicos a los diputados en diversas
+ocasiones, lo que supone uno de los usos de los datos objeto de
+Praeter Orwell, como es la relación de parlamentarios y sus correos
+electrónicos.
+
+La gestión de datos en otros países
+-----------------------------------
+
+A nivel internacional, dos son las inciativas que hay que seguir por
+su calidad y son las de la Sunlight Foundation y las de la Open
+Knowledge Foundation.

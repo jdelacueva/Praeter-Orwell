@@ -1,3 +1,5 @@
+.. _datos:
+
 ¿Qué datos necesitamos?
 =======================
 
@@ -83,4 +85,3 @@ Otra información
 El presente proyecto no entrará en datos adicionales a los aquí
 mostrados puesto que su objetivo es el de generar un marco básico que
 permita la interoperabilidad de otros proyectos.
-

@@ -34,6 +34,6 @@ Para generar la documentación:
 
 3.- Generar la documentación::
 
-     (Praeter-Orwell)$ make html #para formato html
+     (Praeter-Orwell)$ make html # para formato html
 
-4.- La documentación se hallará construida en formato html en el directorio Praeter-Orwell/_build/html
+4.- La documentación se hallará construida en formato html en el directorio `Praeter-Orwell/_build/html`
