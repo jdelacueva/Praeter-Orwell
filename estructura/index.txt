@@ -1,3 +1,5 @@
+.. _estructura:
+
 ¿Cómo han de estructurarse los datos?
 =====================================
 

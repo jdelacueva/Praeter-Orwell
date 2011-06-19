@@ -37,6 +37,18 @@ La referencia a un marco básico permite:
 
 .. _siguiente enlace: http://opengov.es/package/presidentes-gobierno_es
 
+.. topic:: Tutorial:
+
+    Praeter Orwell busca la simplicidad y, en esencia, consiste en
+    hacer listas de datos, archivarlas de una determinada manera y
+    colgarlas en Internet para que todos puedan acceder a las mismas.
+
+    Todas las personas, sin necesidad de tener conocimientos
+    informáticos, pueden ayudar. Cómo ayudar se explica, de una manera
+    muy sencilla, en un :ref:`tutorial` en el que hacemos paso a paso
+    dos listas: la de los Presidentes del Gobierno de Cantabria desde
+    1978 hasta la fecha y la de las Delegaciones del Gobierno central
+    en cada provincia.
 
 Partes del proyecto
 -------------------
@@ -46,15 +58,17 @@ Las partes en las que se divide este proyecto son las siguientes:
 .. toctree::
    :maxdepth: 2
 
+   tutorial/index
    datos/index
    obtencion/index
    estructura/index
    almacenamiento/index
-   gestion/index
    disposicion/index
+   gestion/index
    ayuda/index
    README
    LICENSE
+   movecommons
    versiones
 
 Indices y tablas

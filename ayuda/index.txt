@@ -1,3 +1,5 @@
+.. _ayuda:
+
 ¿Cómo puedo ayudar?
 ===================
 

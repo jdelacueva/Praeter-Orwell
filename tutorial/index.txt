@@ -1,0 +1,194 @@
+.. _tutorial:
+
+Tutorial
+========
+
+.. sidebar:: Pasos del tutorial:
+
+       .. graphviz::
+
+           digraph tutorial {
+           "Elegir lista" -> "Obtener datos" ->
+           "Archivar datos" -> "Subir datos" -> "Enlazar datos";
+           }
+
+Praeter Orwell es un meta proyecto, esto es, un proyecto de proyectos
+y cuyo fundamento es muy simple ya que consiste en hacer listas de
+datos que se ponen a disposición pública.
+
+Lo importante es no repetir el trabajo haciendo una lista ya
+hecha. Por ejemplo, ya está hecha la lista de los presidentes del
+Gobierno central desde 1978 hasta la fecha por lo que habría que hacer
+otra, como por ejemplo las listas de los presidentes de los órganos
+ejecutivos de las diferentes autonomías ni de los diferentes
+consejeros de las mismas desde 1978 hasta la fecha, que en la fecha de
+escribir este tutorial no consta que las haya realizado nadie.
+
+Ahora bien, las listas hay que hacerlas de una determinada manera, que
+es el objeto de este tutorial. Para mostrar cómo, vamos a hacer dos
+ejemplos paso a paso: el primero de ellos de los Presidentes de la
+Comunidad de Cantabria desde 1978 hasta hoy el segundo las direcciones
+de las Delegaciones y Subdelegaciones del Gobierno central en las
+diferentes provincias.
+
+Hacer las listas de una determinada manera, genera una estandarización
+que luego facilita la labor a los programadores que escriben
+aplicaciones en las que se manejan los datos.
+
+Los pasos que vamos a seguir con los dos ejemplos que vamos a
+construir son los siguientes:
+
+1. Elegir una lista para hacer.
+2. Obtener los datos.
+3. Archivar los datos en su ordenador.
+4. Subir los datos a Internet.
+5. Enlazar los datos desde http://opengov.es
+
+Presidentes de Cantabria
+------------------------
+
+1. Elegir una lista para hacer.
+
+Previamente a realizar una elección de qué lista hacer, verificamos
+que la lista no esté hecha, para así no duplicar el trabajo. Para
+ello, visitamos la sección de qué listas están disponibles. Para el
+supuesto de este tutorial, presumimos que la lista de los presidentes
+de Cantabria no está realizada, así que comenzamos a hacerla.
+
+Para hacerse una idea de lo que queremos construir, puede consultar el
+el ejemplo de los `Presidentes de Gobierno`_ del Estado
+central
+
+.. _Presidentes de Gobierno: http://opengov.es/package/presidentes-gobierno_es
+
+2. Obtener los datos.
+
+El lugar del que obtenemos los datos puede ser muy variado. Lo más
+interesante siempre es obtenerlos de fuentes oficiales como, por
+ejemplo, un boletín oficial y, en este caso, el Boletín de
+Cantabria. 
+
+Otro lugar donde podemos obtener los datos puede ser la Wikipedia,
+consultando la página sobre el asunto y las referencias en las que se
+basa el artículo.
+
+3. Archivar los datos en su ordenador.
+
+Para archivar los datos, vamos a usar siempre una hoja de cálculo. Una
+hoja de cálculo es una página que está dividida en columnas y
+filas. Vamos a utilizar este sistema de columnas y filas para hacer
+las listas de datos.
+
+Existen numerosos programas de manejo de hoja de cálculo, siendo los
+más conocidos Excel y Open Office o Free Office.
+
+Abra su programa Excel, Open Office o el programa de hoja de cálculo
+que usted utilice y, en la primera fila, escriba los siguientes
+nombres en las columnas:
+
++--+------+---------+---------+------------------+----------+---+
+|id|nombre|apellido1|apellido2|fecha_nombramiento|fecha_cese|url|
++--+------+---------+---------+------------------+----------+---+
+
+Estos nombres de columnas no son arbitrarios, sino que son una
+propuesta que se hace desde este proyecto. Para cada lista de datos
+que pretendemos construir, Praeter Orwell hace una propuesta de
+columnas que puede consultar en la sección correspondiente de esta
+documentación: :ref:`estructura`.
+
+Visitando el Boletín Oficial del Estado podemos hacer una búsqueda
+avanzada e introducimos el criterio "Nombramiento de presidente de
+Gobierno, Comunidad de Cantabria".
+
+Los resultados de la búsqueda nos indican quienes han sido y en qué
+fechas los nombrados, pasando a rellenar la hoja de cálculo, que
+resultaría así:
+
++--+------+---------+---------+------------------+----------+---+
+|id|nombre|apellido1|apellido2|fecha_nombramiento|fecha_cese|url|
++--+------+---------+---------+------------------+----------+---+
+| 1|
++--+------+---------+---------+------------------+----------+---+
+| 2|
++--+------+---------+---------+------------------+----------+---+
+| 3|
++--+------+---------+---------+------------------+----------+---+
+
+3. Archivar los datos en nuestro ordenador.
+
+Una vez que ya hemos completado la información, la archivamos y
+nombramos el archivo con un nombre que cumpla con las siguientes
+características:
+
+En el nombre del archivo incluimos la fecha de creación, pero en
+formato año-mes-día, por ejemplo 2011-05-19 más el contenido del
+archivo, con lo que quedaría
+2011-06-19_presidentes-gobierno-cantabria.
+
+Si posteriormente a la fecha de creación del archivo lo modificamos,
+cambiamos entonces el nombre del archivo y lo nombramos de acuerdo a
+la fecha de modificación, respetando el nombre relacionado con el
+contenido del archivo, como por ejemplo
+2011-06-12_presidentes-gobierno-cantabria. De esta manera, siempre
+sabremos en qué fecha actualizamos la información, lo que es un dato
+muy relevante para este tipo de contenidos.
+
+4. Subir los datos a Internet.
+
+Una vez que ya tenemos el archivo creado y archivado en nuestro
+ordenador, queda ponerlo a disposición pública. Lo más fácil es
+utilizar Google Docs.
+
+5. Enlazar los datos desde http://opengov.es
+
+Para facilitar que encontremos el archivo y que éste sea utilizado por
+el mayor número posible de desarrolladores, en conveniente enlazarlo
+desde http://opengov.es. Opengov.es es una web desde la que se enlazan
+(que no almacenan) archivos de opendata y es una iniciativa ciudadana
+de software libre.
+
+Delegaciones y Subdelegaciones de Gobierno
+------------------------------------------
+
+1. Elegir una lista para hacer.
+
+Al igual que en el anterior ejemplo, buscaríamos si la lista de estos
+datos ya están realizados.
+
+2. Obtener los datos.
+
+Los datos pueden obtenerse de la web del `Ministerio del Interior`_.
+
+.. _Ministerio del Interior: http://www.mpt.gob.es/ministerio/delegaciones_gobierno/delegaciones.html
+
+3. Archivar los datos en su ordenador.
+
+En este caso, se trata de direcciones de oficinas públicas de un
+Ministerio y las columnas que vamos a utilizar son las siguientes:
+
++--+------+---------+---------+------------------+----------+---+
+|id|nombre|apellido1|apellido2|fecha_nombramiento|fecha_cese|url|
++--+------+---------+---------+------------------+----------+---+
+
+4. Subir los datos a Internet.
+
+Como en el ejemplo anterior, utilizamos Google Docs para el archivo.
+
+5. Enlazar los datos desde http://opengov.es
+
+Al igual que en el ejemplo anterior, utilizamos Opengov.es para
+enlazar el archivo subido.
+
+Siguientes pasos
+----------------
+
+Los anteriores ejemplos son muy básicos. Hay datos que son deseables
+pero que nuestros gobernantes no quieren entregárnoslos, como por
+ejemplo los nombres de nuestros empleados públicos que disponen de una
+tarjeta de crédito que pagamos con nuestro dinero y los movimientos de
+esas tarjetas de crédito. Para obtener esa información, habrá que
+apoyar a los movimientos sociales que están luchando por ella, como la
+Coalición Pro Acceso o la Asociación Probono Público.
+
+Puede consultar la sección de :ref:`ayuda` para contribuir a este
+proyecto no sólo creando listas.
