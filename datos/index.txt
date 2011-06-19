@@ -69,6 +69,14 @@ quedando dichos datos cerrados.
 
    Relación de datos que ya tenemos liberados.
 
+.. toctree::
+   :maxdepth: 2
+
+   ejecutivo
+   legislativo
+   judicial
+   territorio
+
 Otra información
 ----------------
 
