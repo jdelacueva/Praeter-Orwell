@@ -3,6 +3,12 @@
 ¿Cómo han de estructurarse los datos?
 =====================================
 
+Los datos se almacenarán en el sistema más básico, para que todos
+puedan acceder a los mismos y es en un archivo CSV (comma separated
+values) o de valores separados por comas.
+
+De esta manera, se garantiza la interoperabilidad.
+
 Archivos CSV
 ------------
 

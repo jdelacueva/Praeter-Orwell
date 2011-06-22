@@ -5,6 +5,8 @@ Tutorial
 
 .. topic:: Atención:
 
+   TUTORIAL INCOMPLETO
+
    El tutorial no está completo por lo que sólo puede dar una idea de
    los pasos a cumplimentar, pero no el detalle.
 
@@ -12,14 +14,12 @@ Tutorial
 
 .. sidebar:: Pasos del tutorial:
 
-       .. graphviz::
+   .. graphviz::
 
-           digraph tutorial {
+      digraph tutorial {
            "Elegir lista" -> "Obtener datos" ->
            "Archivar datos" -> "Subir datos" -> "Enlazar datos";
            }
-
-
 
 Praeter Orwell es un meta proyecto, esto es, un proyecto de proyectos
 y cuyo fundamento es muy simple ya que consiste en hacer listas de

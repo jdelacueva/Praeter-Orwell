@@ -1,10 +1,67 @@
 Versiones del presente documento
 ================================
 
-Versión 0.1 (en desarrollo)
+Versión 0.2 (en desarrollo)
 ---------------------------
 
-Tareas pendientes para la versión 0.1:
+Tareas pendientes para la versión 0.2:
 
 .. todolist::
 
+Versión 0.1
+-----------
+
+- Inicio del Tutorial
+
+  - Presidentes de Cantabria
+  - Delegaciones y Subdelegaciones de Gobierno
+  - Siguientes pasos
+
+- ¿Qué datos necesitamos?
+
+  - ¿Qué datos tenemos ya?
+  - Otra información
+
+- ¿Cómo obtener los datos?
+
+  - Scraping
+  - Ley transparencia
+
+- Inicio de ¿Cómo han de estructurarse los datos?
+
+  - Inicio de Archivos CSV
+  - Inicio de Campos de bases de datos SQL
+  - Ontología Jurídica Libre
+
+- ¿Dónde y cómo almacenar los datos?
+
+  - El enlace a los datos: opengov.es
+
+- ¿Cómo poner los datos a disposición pública?
+
+  - Requisitos de Open Data
+  - Requisitos para el proyecto Praeter Orwell
+
+- ¿Cómo gestionar los datos?
+
+  - Aplicaciones web
+  - Campañas políticas
+  - La gestión de datos en otros países
+
+- ¿Cómo puedo ayudar?
+
+  - Obteniendo datos
+  - Luchando por una Ley de transparencia
+  - Mejorando el código de la estructura de los datos
+  - Creando aplicaciones de gestión y de visualización de los datos
+  - Alojando réplicas de los datos
+  - Abriendo sus datos
+  - Haciendo un fork del presente documento
+
+- Instalación de esta documentación
+
+- Licencia de esta documentación
+
+- Move Commons
+
+- Versiones del presente documento

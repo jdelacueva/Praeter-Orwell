@@ -1,32 +1,82 @@
 ¿Cómo obtener los datos?
 ========================
 
+Los datos han de obtenerse de fuentes oficiales, para que tengan la
+garantía de su procedencia.
+
+Los nombramientos de las personas han de venir publicados en algún
+boletín oficial, por lo que habrá de consultarse éste y utilizar los
+buscadores que ponen a nuestra disposción.
+
+Los órganos vienen definidos en normas jurídicas que los
+constituyen. Encontraremos diferentes niveles, cuya parte superior son
+los tratados internacionales, posteriormente la Constitución y más
+abajo diferentes normas jurídicas.
+
+En cuanto a la información producida por las personas utilizando los
+órganos, su búsqueda es siempre más dificultosa, si bien no es muchas
+veces necesario obtener toda la información volcada por la institución
+de que se trate, sino señalar un enlace a dónde puede obtenerse.
+
+Las técnicas que se utilizan para documentar los datos obtenidos van
+desde el manual copia y pega hasta sistemas más avanzados, como puede
+serlo la técnica conocida como Scraping.
+
 Scraping
 --------
 
-.. todo::
+El Scraping consiste en extraer información del código HTML de las
+páginas web utilizando para ello técnicas de filtrado. Estas técnicas
+pueden basarse en analizar su formato, la hoja de estilos, su posición
+en la página... Una vez filtrada la información que interesa, ésta se
+almacena de una manera que luego pueda ser reutilizada. Por ejemplo,
+se almacena en archivos en formato CSV, que es la solución que
+proponemos.
 
-   Explicación de en qué consiste el scraping.
+Existen numerosas herramientas para facilitar las técnicas de
+scraping, de las que señalamos las siguientes:
 
-.. todo:: 
+- http://needlebase.com/
+- http://scraperwiki.com/
+- http://scrapy.org/
 
-   Herramientas existentes.
+Además de las herramientas señaladas, cada lenguaje de programación
+ofrece bibliotecas cuya función es la de facilitar las técnicas de
+scraping, como por ejemplo:
 
-   - http://needlebase.com/
-   - http://scraperwiki.com/
-   - http://scrapy.org/
+- Lenguaje Python:
+  
+  - `Beautiful Soup`_
+  - `Módulo lxml`_
+  - `Módulo html5lib`_
 
-.. todo:: 
-
-   Librerías existentes.
+.. _Beautiful Soup: http://www.crummy.com/software/BeautifulSoup/
+.. _Módulo lxml: http://lxml.de/
+.. _Módulo html5lib: http://code.google.com/p/html5lib/
 
 Ley transparencia
 -----------------
 
-.. todo::
+A pesar de las técnicas existentes, existen numerosísimos datos que
+nuestros empleados públicos se niegan a poner online. Es por ello que
+el campo del activismo es necesario. Quienes se hallan haciendo una
+importante labor en este campo son la Coalición Pro Acceso y la
+Asociación Probono Público:
 
-   El derecho a saber: Coalición Pro Acceso
+- El derecho a saber: Coalición Pro Acceso
 
-   http://www.proacceso.org/
+  http://www.proacceso.org/
 
-   http://www.access-info.org/es/coalicion-pro-acceso
+  http://www.access-info.org/es/coalicion-pro-acceso
+
+- Asociación Probono Público
+
+  http://blog.probp.org/
+
+- Ley de Transparencia Ya
+
+  http://www.leydetransparenciaya.info/
+
+El apoyo a estos grupos es muy relevante para lograr una normativa
+jurídica en la que se regule el derecho a obtener estos datos y la
+obligación de nuestros empleados de entregarla.

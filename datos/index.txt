@@ -40,6 +40,8 @@ necesitamos se indican en la siguiente tabla:
 |                |concejales      |               |                    |
 +----------------+----------------+---------------+--------------------+
 
+Los datos anteriores no son suficientes, pero sí son necesarios.
+
 Se busca obtener, estructurar y poner a disposición los datos más
 básicos, por ejemplo: 
 
@@ -67,9 +69,17 @@ quedando dichos datos cerrados.
 ¿Qué datos tenemos ya?
 ----------------------
 
-.. todo::
+Prácticamente ninguno. Algunos datos se hallan contenidos en las webs de
+los organismos públicos y otros son inexistentes. Por ejemplo, la web
+de las `Corts Valencianes`_ no incluye los nombres de los parlamentarios
+de las legislaturas anteriores a la fecha en que se
+consulte.
 
-   Relación de datos que ya tenemos liberados.
+.. _Corts Valencianes: http://www.cortsvalencianes.es
+
+Los datos que de momento se han obtenido y guardado en el sistema que
+archivo que Praeter Orwell propone se indican en los siguientes
+apartados:
 
 .. toctree::
    :maxdepth: 2
@@ -78,6 +88,7 @@ quedando dichos datos cerrados.
    legislativo
    judicial
    territorio
+   otros_organos
 
 Otra información
 ----------------

@@ -16,9 +16,12 @@ verificar que no estén ya puestos a disposición.
 Obteniendo datos
 ----------------
 
-.. todo::
+En el apartado de :ref:`datos` puede consultar qué datos tenemos y qué
+datos necesitamos para hacerse una idea de cuáles son los que interesa
+conseguir. 
 
-   Cómo obtener datos.
+Puede seguir el :ref:`tutorial` para obtener los datos,
+estructurarlos, almacenarlos, difundirlos y enlazarlos.
 
 Luchando por una Ley de transparencia
 -------------------------------------
@@ -35,23 +38,23 @@ intereses comunes.
 Mejorando el código de la estructura de los datos
 -------------------------------------------------
 
-.. todo::
+El código que publicamos es mejorable. Siempre. Cualquier mejora es
+bienvenida. Para mejorarlo le aconsejamos proceda a hacer un fork del
+presente documento y proponer en su repositorio git las mejoras::
 
-   Cómo mejorar el código.
+ $ git clone http://github.com/jdelacueva/praeter-orwell
 
-Creando aplicaciones de gestión de los datos
---------------------------------------------
+Creando aplicaciones de gestión y de visualización de los datos
+---------------------------------------------------------------
 
-.. todo::
-
-   Cómo crear aplicaciones.
+Si es programador, una forma de ayudar es crear apliaciones de gestión
+de los datos o de visualización de los mismos.
 
 Alojando réplicas de los datos
 ------------------------------
 
-.. todo::
-
-   Cómo alojar réplicas de los datos
+Copie todos los datos y aloje réplicas de los mismos. De esa manera
+evitaremos la posibilidad de que nadie quiera impedir su difusión.
 
 Abriendo sus datos
 ------------------
@@ -59,6 +62,9 @@ Abriendo sus datos
 Si usted dispone de datos de los que nos interesan por haberlos ya
 extraído, agradeceríamos mucho su contribución para no duplicar
 esfuerzos.
+
+Si usted dispone de una aplicación online que utilice estos datos,
+desarrolle una API abierta para poder poner a disposición los mismos.
 
 Haciendo un fork del presente documento
 ---------------------------------------

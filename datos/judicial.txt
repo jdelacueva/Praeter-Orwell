@@ -5,5 +5,19 @@ Poder Judicial
 |Poder    |Personas            |Organos              |Información producida  |
 +=========+====================+=====================+=======================+
 |Judicial |Jueces y Magistrados|Juzgados y Tribunales|Resoluciones judiciales|
-|         |                    |                     |                       |
 +---------+--------------------+---------------------+-----------------------+
+
+Jueces y Magistrados
+--------------------
+
+Sin datos.
+
+Juzgados y Tribunales
+---------------------
+
+Sin datos.
+
+Resoluciones judiciales
+-----------------------
+
+Sin datos.

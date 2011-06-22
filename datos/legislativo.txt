@@ -6,3 +6,31 @@ Poder legislativo
 +================+================+===============+=====================+
 |Legislativo     |Parlamentarios  |Parlamentos    |Leyes                |
 +----------------+----------------+---------------+---------------------+
+
+
+Parlamentarios
+--------------
+
+- `Parlamentarios europeos`_.
+- `Parlamentarios Parlament Catalunya`_.
+
+.. _Parlamentarios europeos: https://spreadsheets.google.com/spreadsheet/ccc?key=0Aju6C2vCJrTNdDF6RTFmTUI2LVc5US1UWjNjeXRub2c&hl=es
+.. _Parlamentarios Parlament Catalunya: https://spreadsheets.google.com/spreadsheet/ccc?key=0AtDiDXlt-a__dFFFRXA0cGt3VDRmc0l4UXJMTXZ3Z0E&hl=es
+
+Parlamentos
+-----------
+
+- `Legislaturas parlamentarias`_
+
+.. _Legislaturas parlamentarias: https://spreadsheets.google.com/spreadsheet/ccc?key=0AtDiDXlt-a__dC1zRDU0Wk9reGRRVDJtd0g0MFkyLXc&hl=es
+
+Leyes
+-----
+
+- `Leyes orgánicas`_.
+- `Leyes ordinarias`_.
+- `Reales decretos legislativos`_.
+
+.. _Leyes orgánicas: http://opengov.es/package/leyes_organicas_es
+.. _Leyes ordinarias: http://opengov.es/package/leyes_ordinarias_es
+.. _Reales decretos legislativos: http://opengov.es/package/reales_decretos_legislativos_es

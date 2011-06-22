@@ -1,3 +1,5 @@
+.. _gestion:
+
 ¿Cómo gestionar los datos?
 ==========================
 
@@ -16,7 +18,12 @@ Los proyectos de Abredatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A lo largo de dos años, la Asociación Probono Público ha convocado
-concursos para aplicaciones que gestionasen información pública.
+concursos para aplicaciones que gestionasen información pública bajo
+la denominación de Desafío Abredatos.
+
+.. topic:: Página web del Desafío Abredatos:
+
+    http://www.abredatos.es/
 
 El Proyecto Kelsen
 ~~~~~~~~~~~~~~~~~~~
@@ -33,15 +40,29 @@ Django.
 Campañas políticas
 ------------------
 
-Hacktivistas.net también ha utilizado estos datos en campañas de envío
+`Hacktivistas.net`_ también ha utilizado estos datos en campañas de envío
 masivo de correos electrónicos a los diputados en diversas
 ocasiones, lo que supone uno de los usos de los datos objeto de
 Praeter Orwell, como es la relación de parlamentarios y sus correos
 electrónicos.
 
+.. _Hacktivistas.net: http://hacktivistas.net
+
+La campaña está desactivada y se realizó a través de Xmailer. Pueden
+consultarse las características de la acción en el siguiente enlace:
+
+ http://hacktivistas.net/content/24-horas-para-la-votaci%C3%B3n-de-la-ley-sinde-
+
 La gestión de datos en otros países
 -----------------------------------
 
 A nivel internacional, dos son las inciativas que hay que seguir por
-su calidad y son las de la Sunlight Foundation y las de la Open
-Knowledge Foundation.
+su calidad: 
+
+- `Sunlight Foundation`_
+
+- `Open Knowledge Foundation`_
+
+.. _Sunlight Foundation: http://sunlightfoundation.com/
+
+.. _Open Knowledge Foundation: http://okfn.org/

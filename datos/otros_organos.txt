@@ -1,0 +1,27 @@
+Otros Organos constitucionales
+==============================
+
++----------------+----------------+---------------+---------------------+
+|Poder           |Personas        |Organos        |Información producida|
++================+================+===============+=====================+
+|Otros órganos   |Miembros        |Organos        |Nombre de la         |
+|constitucionales|(Magistrados,   |               |información          |
+|                |Consejeros ...) |               |(sentencias,         |
+|                |                |               |informes...)         |
++----------------+----------------+---------------+---------------------+
+
+
+Personas
+--------
+
+Sin datos.
+
+Organos
+-------
+
+Sin datos.
+
+Información producida
+---------------------
+
+Sin datos.
