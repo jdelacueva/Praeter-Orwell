@@ -186,48 +186,205 @@ desde http://opengov.es. Opengov.es es una web desde la que se enlazan
 (que no almacenan) archivos de opendata y es una iniciativa ciudadana
 de software libre.
 
-Delegaciones y Subdelegaciones de Gobierno
-------------------------------------------
+Delegaciones y Subdelegaciones de Gobierno en Andalucía
+-------------------------------------------------------
+
+El sistema que vamos a utilizar para hacer esta lista es el de copiar
+y pegar, en una hoja de cálculo, parte del contenido de dos páginas
+web del Ministerio de Política Territorial y Administración Pública.
 
 1. Elegir una lista para hacer.
 
-Al igual que en el anterior ejemplo, buscaríamos si la lista de estos
-datos ya están realizados.
+Al igual que en el anterior ejemplo de este tutorial, antes de hacer
+una lista buscaríamos si la lista que pretendemos hacer ya está
+realizada, para no repetir un trabajo ya hecho.
+
+Haremos ahora la lista de las Delegaciones en Andalucía, pero bien
+puede usted hacer, al mismo tiempo, otra lista que sea la de cualquier
+otra comunidad autónoma tomando la que haremos como referencia de los
+pasos que hay que dar.
 
 2. Obtener los datos.
 
-Los datos pueden obtenerse de la web del `Ministerio del Interior`_.
+Los datos que nos interesan los vamos a obtener de la web del
+`Ministerio de Política Territorial y Administración Pública`_, donde
+figuran todas las Delegaciones y Subdelegaciones del Gobierno.
 
-.. _Ministerio del Interior: http://www.mpt.gob.es/ministerio/delegaciones_gobierno/delegaciones.html
+.. _Ministerio de Política Territorial y Administración Pública: http://www.mpt.gob.es/ministerio/delegaciones_gobierno/delegaciones.html
+
+Elegiremos el enlace de la `Comunidad Autónoma de Andalucía`_. En este
+enlace encontramos información sobre la Delegación del Gobierno en la
+Comunidad Autónoma y en la parte central más abajo en la página web,
+un enlace de título `Subdelegaciones del Gobierno`_, que nos lleva a la
+página web donde están los datos de las Subdelegaciones. 
+
+.. _Comunidad Autónoma de Andalucía: http://www.mpt.gob.es/ministerio/delegaciones_gobierno/delegaciones/andalucia.html
+
+En la página web de la `Comunidad Autónoma de Andalucía`_ encontramos
+los datos de la Delegación, que son los siguientes::
+
+  Delegación del Gobierno en la Comunidad Autónoma de Andalucía
+  -------------------------------------------------------------
+  Plaza de España-Torre Sur 
+  41071 - SEVILLA 
+  Teléfono: 95 556 90 00 
+  Fax: 95 423 20 77 
+
+A su vez, siguiendo el enlace a la página de las `Subdelegaciones del
+Gobierno`_ encontramos los siguientes datos::
+
+  Subdelegaciones del Gobierno
+  ============================
+
+  Subdelegación del Gobierno en Sevilla
+  -------------------------------------
+  Plaza de España - Torre Norte
+  41071 - SEVILLA
+  Teléfono: 95 556 90 00
+  Fax: 95 423 53 59
+
+  Subdelegación del Gobierno en Almería
+  -------------------------------------
+  C/ Arapiles, 19
+  04071 - ALMERÍA
+  Teléfono: 950 759 000
+  Fax: 950 235 799
+
+  Subdelegación del Gobierno en Cádiz
+  -----------------------------------
+  C/ Barcelona, 1
+  11071 - CÁDIZ
+  Teléfono: 956 989 000
+  Fax: 956 989 191
+
+  Subdelegación del Gobierno en Córdoba
+  -------------------------------------
+  Plaza de la Constitución, 1
+  14004 - CÓRDOBA
+  Teléfono: 957 989 000 
+  Fax: 957 452 114
+
+  Subdelegación del Gobierno en Granada
+  -------------------------------------
+  C/ Gran Vía de Colón, 50
+  18071 - GRANADA
+  Teléfono: 958 909 000
+  Fax: 958 909 245
+
+  Subdelegación del Gobierno en Huelva
+  ------------------------------------
+  Avda. Martín Alonso Pinzón, 3
+  21071 - HUELVA
+  Teléfono: 959 759 000
+  Fax: 959 240 317
+
+  Subdelegación del Gobierno en Jaén
+  ----------------------------------
+  Plaza de las Batallas, 2
+  23071 - JAÉN
+  Teléfono: 953 999 000
+  Fax: 953 999 100
+
+  Subdelegación del Gobierno en Málaga
+  ------------------------------------
+  Pº de Sancha, 64
+  29071 - MÁLAGA
+  Teléfono: 95 298 90 00
+  Fax: 95 298 93 10 / 11 / 12
+
+.. _`Subdelegaciones del Gobierno`: http://www.mpt.gob.es/ministerio/delegaciones_gobierno/delegaciones/andalucia/subdelegaciones.html
+
 
 3. Archivar los datos en su ordenador.
 
-En este caso, se trata de direcciones de oficinas públicas de un
-Ministerio y las columnas que vamos a utilizar son las siguientes:
+Es importante guardar una copia en su ordenador de los datos que va a
+construir. De esta manera, aseguramos la independencia
+tecnológica. Este paso podría usted realizarlo directamente en Google
+Docs, pero lo importante es tener una copia que guardaremos en local,
+copia que será la que subamos a Internet. Es importante evitar los
+peligros de la "nube".
 
-+--+-------------+----------+---------+---------+-------------+
-|id|nombre_organo|ministerio|provincia|dirección|codigo_postal|
-+--+-------------+----------+---------+---------+-------------+
+En el caso de esta lista, se trata de obtener direcciones de oficinas
+públicas de un Ministerio por lo que los nombres de las columnas que
+vamos a utilizar son las siguientes:
+
++--+-----+----------+----------------+---------+---------+-------------+--------+---+---+
+|id|poder|ministerio|nombre_de_organo|direccion|provincia|codigo_postal|telefono|fax|url|
++--+-----+----------+----------------+---------+---------+-------------+--------+---+---+
+
+Iremos completando las filas de la siguiente manera:
+
+Columna `id`:
+ En la columna id pondremos el ordinal de la fila de datos, en este
+ caso va del 1 al 11.
+
+Columna `poder`:
+ En este caso, se trata de un órgano del poder ejecutivo ya que es un
+ órgano de un Ministerio del Goberno central.
+
+Columna `nombre_de_organo`:
+ Se trata de la Delegación del Gobierno en Andalucía y las
+ Subdelegaciones de Gobierno en las provincias, por lo que escribimos
+ el que corresponda.
+
+Columnas `direccion`, `provincia` `código_postal` y `telefono`:
+ Rellenamos con los datos que constan en la página web.
+
+Columna `fax`:
+ Es necesario mencionar una peculiaridad: la Subdelegación de Gobierno
+ de Málaga tiene tres números de fax. En este tipo de casos, en los
+ que existen varios datos de una de las cabeceras de la columna, se
+ harán tantas filas como datos repetidos.
+
+Columna `url`:
+ Incluimos finalmente el enlace a la página web desde la que hemos
+ copiado los datos.
+
+Se puede observar el resultado final en una `hoja de Google Docs`_, donde
+quedan ya los datos de la Delegación y de las Subdelegaciones en una
+tabla y en un formato que ya todos pueden utilizar.
 
 4. Subir los datos a Internet.
 
-Como en el ejemplo anterior, utilizamos Google Docs para el archivo.
+Una vez que ha archivado los datos en un archivo de su ordenador, lo
+subimos a cualquier servidor en Internet que permita descargarlo sin
+necesidad de tener que registrarse con nombre y usuario en lugar
+alguno.
+
+Como en el ejemplo anterior, utilizamos Google Docs para el archivo en
+Internet, poniendo especial atención a darle permisos para que
+cualquiera pueda consultarlo y descargarlo.
+
+El archivo que acabamos de escribir se halla en la siguiente `hoja de
+Google Docs`_.
+
+.. _`hoja de Google Docs`: https://spreadsheets.google.com/spreadsheet/ccc?key=0AtDiDXlt-a__dEFaaklqeV90T05KNmczU2NiSU1VVVE&hl=es
 
 5. Enlazar los datos desde http://opengov.es
 
-Al igual que en el ejemplo anterior, utilizamos Opengov.es para
-enlazar el archivo subido.
+Finalmente, para que pueda localizarse el archivo recién escrito, lo
+enlazaremos desde Opengov.es.
+
+ http://opengov.es/package/delegaciones-del-gobierno-en-andalucia
+
+
 
 Siguientes pasos
 ----------------
 
-Los anteriores ejemplos son muy básicos. Hay datos que son deseables
-pero que nuestros gobernantes no quieren entregárnoslos, como por
-ejemplo los nombres de nuestros empleados públicos que disponen de una
-tarjeta de crédito que pagamos con nuestro dinero y los movimientos de
-esas tarjetas de crédito. Para obtener esa información, habrá que
-apoyar a los movimientos sociales que están luchando por ella, como la
-Coalición Pro Acceso o la Asociación Probono Público.
+Los anteriores ejemplos son muy básicos pero como puede observarse,
+muy sencillos. Le animamos a que haga una lista de las Delegaciones de
+Gobierno y Subdelegaciones en otras Comunidades autónomas.
 
-Puede consultar la sección de :ref:`ayuda` para contribuir a este
-proyecto no sólo creando listas.
+Además de los datos que podemos extraer de webs públicas, hay otros
+datos que son deseables pero que nuestros gobernantes no quieren
+entregárnoslos, como por ejemplo los nombres de nuestros empleados
+públicos que disponen de una tarjeta de crédito que pagamos con
+nuestro dinero y los movimientos de esas tarjetas de crédito. Para
+obtener esa información, habrá que apoyar a los movimientos sociales
+que están luchando por ella, como la Coalición Pro Acceso o la
+Asociación Probono Público, tal y como se expone en la sección
+:ref:`ayuda`.
+
+Puede consultar la sección citada de :ref:`ayuda` para contribuir a
+este proyecto no sólo creando listas.
