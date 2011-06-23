@@ -32,8 +32,8 @@ Para generar la documentación:
 
      (Praeter-Orwell)$ easy_install Sphinx
 
-3.- Generar la documentación::
+4.- Generar la documentación::
 
      (Praeter-Orwell)$ make html # para formato html
 
-4.- La documentación se hallará construida en formato html en el directorio `Praeter-Orwell/_build/html`
+5.- La documentación se hallará construida en formato html en el directorio `Praeter-Orwell/_build/html`
