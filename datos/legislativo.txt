@@ -1,12 +1,13 @@
 Poder legislativo
 =================
 
-+----------------+----------------+---------------+---------------------+
-|Poder           |Personas        |Organos        |Información producida|
-+================+================+===============+=====================+
-|Legislativo     |Parlamentarios  |Parlamentos    |Leyes                |
-+----------------+----------------+---------------+---------------------+
-
++----------------+----------------+--------------------------+---------------------+
+|Poder           |Personas        |Organos                   |Información producida|
++================+================+==========================+=====================+
+|Legislativo     |Parlamentarios  |Parlamentos               |Leyes                |
++----------------+----------------+--------------------------+---------------------+
+|                |                |`Relación de parlamentos`_|                     |
++----------------+----------------+--------------------------+---------------------+
 
 Parlamentarios
 --------------
@@ -20,8 +21,10 @@ Parlamentarios
 Parlamentos
 -----------
 
+- `Relación de parlamentos`_
 - `Legislaturas parlamentarias`_
 
+.. _Relación de parlamentos: http://opengov.es/package/parlamentos
 .. _Legislaturas parlamentarias: https://spreadsheets.google.com/spreadsheet/ccc?key=0AtDiDXlt-a__dC1zRDU0Wk9reGRRVDJtd0g0MFkyLXc&hl=es
 
 Leyes

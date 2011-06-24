@@ -45,8 +45,15 @@ datos se han clasificado en función de una tríada compuesta por dos
 elementos subjetivos (personas y órganos formados por personas) que
 generan un elemento objetivo, que es la información. En la sociedad de
 la información, podemos utilizar siempre esta metodología para
-clasificar la información: persona que utiliza un organismo para
-generar una información.
+clasificar la información mediante tres parámetros: (1) la persona que
+utiliza el (2) organismo para generar la (3) información.
+
+.. graphviz::
+
+   digraph G {
+   rankdir = LR
+   "Persona" -> "Órgano" -> "Información";
+   }
 
 Utilizando esta metodología, siempre podremos relacionar los elementos
 de la tríada mediante grafos. A continuación, podemos utilizar una
