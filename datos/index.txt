@@ -45,13 +45,21 @@ datos se han clasificado en función de una tríada compuesta por dos
 elementos subjetivos (personas y órganos formados por personas) que
 generan un elemento objetivo, que es la información. En la sociedad de
 la información, podemos utilizar siempre esta metodología para
-clasificar la información mediante tres parámetros: (1) la persona que
+clasificar la información mediante tres parámetros: la (1) persona que
 utiliza el (2) organismo para generar la (3) información.
 
 .. graphviz::
 
    digraph G {
-   rankdir = LR
+    rankdir = LR
+    node [shape=box];
+    node [style=filled, color=lightblue1];
+         "Información";
+    node [style=filled, color="#e8fcac"];
+         "Persona";
+    node [shape=ellipse];
+    node [style=filled, color=lightgrey];
+         "Órgano"
    "Persona" -> "Órgano" -> "Información";
    }
 
@@ -72,7 +80,7 @@ personas que usan órganos para generar una información:
                 "Rodríguez Zapatero";
                 "González Sinde";
                 "Rajoy";
-                "Durán i LLeida";
+                "Durán i Lleida";
     node [shape=ellipse];
     node [style=filled, color=lightgrey];
                 "Ministerio de Cultura";
@@ -81,7 +89,7 @@ personas que usan órganos para generar una información:
     "Rodríguez Zapatero" -> "Gobierno";
     "Rodríguez Zapatero" -> "Congreso";
     "Rajoy" -> "Congreso";
-    "Durán i LLeida" -> "Congreso";
+    "Durán i Lleida" -> "Congreso";
     "Congreso" -> "Ley Sinde";
     "González Sinde" -> "Ministerio de Cultura";
     "González Sinde" -> "Gobierno";

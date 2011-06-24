@@ -22,6 +22,24 @@ Las técnicas que se utilizan para documentar los datos obtenidos van
 desde el manual copia y pega hasta sistemas más avanzados, como puede
 serlo la técnica conocida como Scraping.
 
+Copiar y pegar
+--------------
+
+Si ha seguido el :ref:`tutorial`, habrá observado que en el caso de
+los presidentes de la Comunidad Autónoma Cántabra, primero realizamos
+una búsqueda avanzada en el Boletín Oficial del Estado, copiamos los
+datos del resultado de la búsqueda en el BOE y los pegamos en la hoja
+de cálculo. También utilizamos la misma técnica cuando buscamos los
+datos de la Delegación y Subdelegaciones del Gobierno en Andalucía.
+
+Esta técnica, si bien tediosa, es absolutamente imprescindible en
+numerosísimos casos. Por ejemplo, el archivo que contiene la `relación
+de parlamentos`_ ha tenido que ser confeccionada copiando los datos de
+todas y cada una de las diferentes webs de los parlamentos y luego
+pegándolos en la hoja de cálculo correspondiente.
+
+.. _relación de parlamentos: http://opengov.es/package/parlamentos
+
 Scraping
 --------
 
@@ -54,8 +72,8 @@ scraping, como por ejemplo:
 .. _Módulo lxml: http://lxml.de/
 .. _Módulo html5lib: http://code.google.com/p/html5lib/
 
-Ley transparencia
------------------
+Ley de transparencia
+--------------------
 
 A pesar de las técnicas existentes, existen numerosísimos datos que
 nuestros empleados públicos se niegan a poner online. Es por ello que

@@ -3,12 +3,13 @@
 Tutorial
 ========
 
-.. topic:: Atención:
+.. Warning:: TUTORIAL INCOMPLETO
 
-   TUTORIAL INCOMPLETO
-
-   El tutorial no está completo por lo que sólo puede dar una idea de
-   los pasos a cumplimentar, pero no el detalle.
+   Puede seguir el tutorial, pero existen pasos todavía no
+   completos. De los dos tutoriales, se recomienda seguir el de la
+   Delegación y Subdelegaciones del Gobierno, si bien falta por
+   explicar con más detalle el último punto: enlazar desde
+   http://opengov.es.
 
    Esta nota se suprimirá cuando el tutorial esté completo.
 
@@ -193,16 +194,18 @@ El sistema que vamos a utilizar para hacer esta lista es el de copiar
 y pegar, en una hoja de cálculo, parte del contenido de dos páginas
 web del Ministerio de Política Territorial y Administración Pública.
 
+Recomiendo que antes de empezar y para hacerse una idea de la labor,
+consulte usted en esta `hoja de Google Docs`_ el archivo que vamos a
+construir.
+
 1. Elegir una lista para hacer.
 
 Al igual que en el anterior ejemplo de este tutorial, antes de hacer
 una lista buscaríamos si la lista que pretendemos hacer ya está
 realizada, para no repetir un trabajo ya hecho.
 
-Haremos ahora la lista de las Delegaciones en Andalucía, pero bien
-puede usted hacer, al mismo tiempo, otra lista que sea la de cualquier
-otra comunidad autónoma tomando la que haremos como referencia de los
-pasos que hay que dar.
+Imaginemos que no está realizada la lista de las Delegaciones en
+Andalucía, así que es ésta la que decidimos escribir.
 
 2. Obtener los datos.
 
@@ -294,7 +297,6 @@ Gobierno`_ encontramos los siguientes datos::
 
 .. _`Subdelegaciones del Gobierno`: http://www.mpt.gob.es/ministerio/delegaciones_gobierno/delegaciones/andalucia/subdelegaciones.html
 
-
 3. Archivar los datos en su ordenador.
 
 Es importante guardar una copia en su ordenador de los datos que va a
@@ -367,24 +369,28 @@ enlazaremos desde Opengov.es.
 
  http://opengov.es/package/delegaciones-del-gobierno-en-andalucia
 
-
-
 Siguientes pasos
 ----------------
 
 Los anteriores ejemplos son muy básicos pero como puede observarse,
-muy sencillos. Le animamos a que haga una lista de las Delegaciones de
-Gobierno y Subdelegaciones en otras Comunidades autónomas.
+muy sencillos. 
+
+Le animamos a que haga una lista de las Delegaciones de
+Gobierno y Subdelegaciones en otras Comunidades autónomas. Y si
+alguien finalmente ve que se hallan realizadas las hojas de cálculo de
+todas las comunidades autónomas, siempre puede construir una hoja en
+la que agregue el contenido de todas ellas.
 
 Además de los datos que podemos extraer de webs públicas, hay otros
-datos que son deseables pero que nuestros gobernantes no quieren
-entregárnoslos, como por ejemplo los nombres de nuestros empleados
-públicos que disponen de una tarjeta de crédito que pagamos con
-nuestro dinero y los movimientos de esas tarjetas de crédito. Para
-obtener esa información, habrá que apoyar a los movimientos sociales
-que están luchando por ella, como la Coalición Pro Acceso o la
-Asociación Probono Público, tal y como se expone en la sección
+datos que son deseables pero que sin embargo nuestros gobernantes no
+quieren entregárnoslos, como por ejemplo los nombres de nuestros
+empleados públicos que disponen de una tarjeta de crédito que pagamos
+con nuestro dinero y los movimientos de esas tarjetas de crédito.
+
+Para obtener esa información, habrá que apoyar a los movimientos
+sociales que están luchando por ella, como la Coalición Pro Acceso o
+la Asociación Probono Público, tal y como se expone en la sección
 :ref:`ayuda`.
 
-Puede consultar la sección citada de :ref:`ayuda` para contribuir a
-este proyecto no sólo creando listas.
+Por último, puede consultar la sección citada de :ref:`ayuda` para
+contribuir a este proyecto no sólo creando listas.

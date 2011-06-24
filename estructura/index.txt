@@ -3,14 +3,52 @@
 ¿Cómo han de estructurarse los datos?
 =====================================
 
-Los datos se almacenarán en el sistema más básico, para que todos
-puedan acceder a los mismos y es en un archivo CSV (comma separated
-values) o de valores separados por comas.
-
-De esta manera, se garantiza la interoperabilidad.
-
 Archivos CSV
 ------------
+
+Los datos se almacenarán en el sistema más básico, para que todos
+puedan acceder a los mismos. Se trata de un archivo CSV (comma
+separated values) o de valores separados por comas.
+
+Un archivo CSV es un archivo de texto plano en el que los valores se
+separan por comas y, normalmente, se entrecomillan. Por ejemplo, lo
+siguiente sería un archivo separado por comas::
+
+ "Nombre","Apellido1","Apellido2"
+ "Adolfo","Suárez","González"
+ "Leopoldo","Calvo-Sotelo","Bustelo"
+ "Felipe","González","Márquez"
+ "José María","Aznar","López"
+ "José Luis","Rodríguez","Zapatero"
+
+En la primera de las filas se pueden escribir los títulos de las
+columnas, estando entonces los datos en la fila segunda y siguientes.
+
+Este tipo de archivos, en nuestro caso, lo obtendremos utilizando un
+programa de hoja de cálculo (Excel, Open Office, Libre Office) y, a la
+hora de guardar el archivo, utilizar la opción "Guardar como CSV" o
+"Guardar como archivo de valores separados por comas".
+
+De todas maneras, a pesar de que podamos usar (y de hecho usemos) un
+programa de hoja de cálculo para tratar este tipo de archivos, en
+puridad no se necesita ningún programa especial y vale el más
+elemental programa de tratamiento de texto (notepad, vi, emacs [#]_, nano,
+pico, ed...).
+
+Además de no requerir un software específico, se garantiza la
+interoperabilidad ya que los archivos CSV pueden transformarse en
+otros formatos: los datos pueden introducirse mediante scripts en
+bases de datos `relacionales`_, `no relacionales`_, `orientadas a
+grafos`_..., pueden generarse archivos en formato `RDF`_, `Turtle`_,
+`N3`_... En definitiva, la transformación de los archivos CSV en otro
+tipo de formato es trivial.
+
+.. _relacionales: http://es.wikipedia.org/wiki/Base_de_datos_relacional
+.. _no relacionales: http://en.wikipedia.org/wiki/NoSQL
+.. _orientadas a grafos: http://es.wikipedia.org/wiki/Base_de_datos_orientada_a_grafos
+.. _RDF: http://www.w3.org/RDF/
+.. _Turtle: http://www.w3.org/TeamSubmission/turtle/
+.. _N3: http://www.w3.org/DesignIssues/Notation3
 
 .. todo::
 
@@ -47,3 +85,10 @@ los datos.
 
 .. _Laboratorio del Procomún: http://medialab-prado.es/laboratorio_del_procomun
 .. _Medialab-Prado: http://medialab-prado.es/
+
+.. rubric:: Notas:
+
+.. [#] Reconozco que incluir emacs en el grupo de "elementales
+   programas de edición" no es muy exacto. Es más, el presente
+   documento se ha elaborado con emacs, que es mi editor favorito
+   desde hace muchos años.

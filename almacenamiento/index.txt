@@ -5,8 +5,14 @@ De lo que se trata es de poder obtener en cualquier momento y de la
 manera más fácil posible, una copia de todos los datos, con
 independencia de su lugar de almacenamiento.
 
-El almacenamiento de los datos puede realizarse en el servidores que
-se desee.
+El almacenamiento de los datos puede realizarse en el servidor que se
+desee siempre y cuando no se necesite registrarse para acceder a los
+mismos.
+
+.. Warning:: No debe establecerse ningún sistema de registro para
+             acceder a la información. El acceso a los datos que
+             generemos ha de ser totalmente libre y, además,
+             gratuito.
 
 Los sistemas de almacenamiento pueden ser muchos y variados siendo
 válidos los siguientes sistemas:
@@ -19,9 +25,9 @@ válidos los siguientes sistemas:
 El enlace a los datos: opengov.es
 ---------------------------------
 
-No obstante, una vez que los datos se han estructurado correctamente,
-hay que coordinar que puedan ser encontrados y ello se puede hacer de
-dos maneras:
+Una vez que los datos se han estructurado correctamente, hay que
+coordinar que puedan ser encontrados y ello se puede hacer de dos
+maneras:
 
 - Bien enlazándolo desde http://opengov.es. Señalamos unos ejemplos de
   datos ya obtenidos y enlazados desde Opengov.es:
