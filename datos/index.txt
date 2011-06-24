@@ -40,10 +40,55 @@ necesitamos se indican en la siguiente tabla:
 |                |concejales      |               |                    |
 +----------------+----------------+---------------+--------------------+
 
-Los datos anteriores no son suficientes, pero sí son necesarios.
+Los datos anteriores no son suficientes, pero sí son necesarios. Los
+datos se han clasificado en función de una tríada compuesta por dos
+elementos subjetivos (personas y órganos formados por personas) que
+generan un elemento objetivo, que es la información. En la sociedad de
+la información, podemos utilizar siempre esta metodología para
+clasificar la información: persona que utiliza un organismo para
+generar una información.
 
-Se busca obtener, estructurar y poner a disposición los datos más
-básicos, por ejemplo: 
+Utilizando esta metodología, siempre podremos relacionar los elementos
+de la tríada mediante grafos. A continuación, podemos utilizar una
+hipotética [#]_ denominada "Ley Sinde" para señalar un ejemplo de relaciones entre
+personas que usan órganos para generar una información:
+
+.. graphviz::
+
+   digraph tutorial {
+    node [shape=box];
+    node [style=filled, color=lightblue1];
+                "Anteproyecto Ley Sinde";
+                "Proyecto Ley Sinde";
+                "Ley Sinde";
+    node [style=filled, color="#e8fcac"];
+                "Rodríguez Zapatero";
+                "González Sinde";
+                "Rajoy";
+                "Durán i LLeida";
+    node [shape=ellipse];
+    node [style=filled, color=lightgrey];
+                "Ministerio de Cultura";
+                "Gobierno";
+                "Congreso";
+    "Rodríguez Zapatero" -> "Gobierno";
+    "Rodríguez Zapatero" -> "Congreso";
+    "Rajoy" -> "Congreso";
+    "Durán i LLeida" -> "Congreso";
+    "Congreso" -> "Ley Sinde";
+    "González Sinde" -> "Ministerio de Cultura";
+    "González Sinde" -> "Gobierno";
+    "Ministerio de Cultura" -> "Gobierno";
+    "Ministerio de Cultura" -> "Anteproyecto Ley Sinde";
+    "Anteproyecto Ley Sinde" -> "Gobierno";
+    "Gobierno" -> "Proyecto Ley Sinde";
+    "Proyecto Ley Sinde" -> "Congreso";
+   }
+
+La utilización de esta tríada supone una metodología simple que
+usaremos para obtener, estructurar y poner a disposición todos los
+datos desde los más básicos a los más complejos. Ejemplos de datos
+básicos serían los siguientes:
 
 - La relación de diputados del Congreso desde la legislatura
   constituyente hasta la fecha.
@@ -55,16 +100,16 @@ básicos, por ejemplo:
 
 .. _Leyes orgánicas: http://opengov.es/package/leyes_organicas_es
  
-De esta manera y sobre estos datos, cualquier persona podrá
-desarrollar aplicaciones para el control del poder político. Es obvio
-que si no se tiene una relación de parlamentarios y sus correos
-electrónicos, no puede promoverse una campaña de envío de
-reivindicaciones a los mismos.
+Una vez publicados los datos, cualquier persona que se disponga a desarrollar
+aplicaciones para el control del poder político no necesitará perder
+el tiempo en una parte esencial de su proyecto. Es obvio que si se
+pone a su disposición una relación de parlamentarios, no destinará
+recursos a obtener dicha relación.
 
 Alguna de esta información se halla ya extraida pero en muchos casos
 quienes lo han hecho luego no la ponen a disposición de los demás,
-quedando dichos datos cerrados.
-
+quedando dichos datos cerrados, lo que obliga a perder tiempo en
+un trabajo idéntico al que ya se hizo.
 
 ¿Qué datos tenemos ya?
 ----------------------
@@ -96,3 +141,10 @@ Otra información
 El presente proyecto no entrará en datos adicionales a los aquí
 mostrados puesto que su objetivo es el de generar un marco básico que
 permita la interoperabilidad de otros proyectos.
+
+.. rubric:: Notas:
+
+.. [#] El grafo corresponde a una hipotética norma. La denominada "Ley
+   Sinde" se tramitó en Comisión, no en el pleno del Congreso. Lo
+   relevante del grafo es ver las relaciones entre personas, órganos e
+   información generada por las personas utilizando los órganos.
