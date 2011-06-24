@@ -1,13 +1,22 @@
+.. _portada:
+
 Praeter Orwell
 ==============
 
 Praeter Orwell es un proyecto que propone un marco básico para
 desarrollar posteriormente aplicaciones de control del poder político
 por parte de los ciudadanos mediante la gestión de la información
-jurídica proviniente de las personas y organismos públicos.
+jurídica proviniente de las personas y de organismos públicos.
+
+Cualquier persona puede contribuir a este proyecto, sin necesidad de
+especiales conocimientos informáticos.
 
 Su principal objetivo es la interoperabilidad entre los proyectos de
-opendata y opengovernment.
+`Open data`_ y `Open government`_ mediante una estandarización de
+datos.
+
+.. _Open data: http://es.wikipedia.org/wiki/Datos_abiertos
+.. _Open Government: http://es.wikipedia.org/wiki/Gobierno_abierto
 
 La referencia a un marco básico permite:
 
@@ -48,7 +57,7 @@ La referencia a un marco básico permite:
     muy sencilla, en un :ref:`tutorial` en el que hacemos paso a paso
     dos listas: la de los Presidentes del Gobierno de Cantabria desde
     1978 hasta la fecha y la de las Delegaciones del Gobierno central
-    en cada provincia.
+    en la Comunidad Autónoma de Andalucía.
 
 Partes del proyecto
 -------------------
