@@ -129,7 +129,7 @@ consulte.
 
 .. _Corts Valencianes: http://www.cortsvalencianes.es
 
-Los datos que de momento se han obtenido y guardado en el sistema que
+Los datos que de momento se han obtenido y guardado en el sistema de
 archivo que Praeter Orwell propone se indican en los siguientes
 apartados:
 
@@ -145,9 +145,9 @@ apartados:
 Otra información
 ----------------
 
-El presente proyecto no entrará en datos adicionales a los aquí
-mostrados puesto que su objetivo es el de generar un marco básico que
-permita la interoperabilidad de otros proyectos.
+El presente proyecto no tiene por objeto datos adicionales a los aquí
+señalados. Su objetivo es el de generar un marco básico que permita la
+interoperabilidad de otros proyectos.
 
 .. rubric:: Notas:
 
