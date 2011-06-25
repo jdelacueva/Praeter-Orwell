@@ -3,16 +3,6 @@
 Tutorial
 ========
 
-.. Warning:: TUTORIAL INCOMPLETO
-
-   Puede seguir el tutorial, pero existen pasos todavía no
-   completos. De los dos tutoriales, se recomienda seguir el de la
-   Delegación y Subdelegaciones del Gobierno, si bien falta por
-   explicar con más detalle el último punto: enlazar desde
-   http://opengov.es.
-
-   Esta nota se suprimirá cuando el tutorial esté completo.
-
 .. sidebar:: Pasos del tutorial:
 
    .. graphviz::
@@ -22,31 +12,37 @@ Tutorial
            "Archivar datos" -> "Subir datos" -> "Enlazar datos";
            }
 
-Praeter Orwell es un meta proyecto, esto es, un proyecto de proyectos
-y cuyo fundamento es muy simple ya que consiste en hacer listas de
-datos que se ponen a disposición pública.
+El fundamento de Praeter Orwell es muy simple ya que consiste en hacer
+listas de datos y poner dichas listas a disposición pública.
 
-Lo importante es no repetir el trabajo haciendo una lista ya
-hecha. Por ejemplo, ya está hecha la lista de los presidentes del
-Gobierno central desde 1978 hasta la fecha por lo que habría que hacer
-otra, como por ejemplo las listas de los presidentes de los órganos
-ejecutivos de las diferentes autonomías ni de los diferentes
-consejeros de las mismas desde 1978 hasta la fecha, que en la fecha de
-escribir este tutorial no consta que las haya realizado nadie.
+Lo importante es no repetir el trabajo haciendo una lista que ya esté
+hecha. Por ejemplo, ya está realizada la lista de los presidentes del
+Gobierno central desde 1978 hasta hoy, por lo que esta lista no hay
+que volverla a realizar.
 
-Ahora bien, las listas hay que hacerlas de una determinada manera, que
-es el objeto de este tutorial. Para mostrar cómo, vamos a hacer dos
-ejemplos paso a paso: el primero de ellos de los Presidentes de la
-Comunidad de Cantabria desde 1978 hasta hoy el segundo las direcciones
-de las Delegaciones y Subdelegaciones del Gobierno central en las
-diferentes provincias.
+Sin embargo, por ejemplo, no están hechas las listas de los
+presidentes de los órganos ejecutivos de las diferentes autonomías o
+las listas de los diferentes consejeros de las mismas desde 1978 hasta
+la fecha, así que nos centraremos en realizar listas que estén sin
+hacer.
+
+Las listas hay que hacerlas de una determinada manera, que es el
+objeto de este tutorial. Para mostrar cómo deben escribirse, vamos a
+hacer dos ejemplos paso a paso: el primero de los ejemplos será una
+lista de personas mientras que el segundo será una lista de órganos
+públicos. Como lista de personas, se ha elegido la lista de los
+Presidentes de la Comunidad de Cantabria desde 1978 hasta hoy,
+mientras que como ejemplo de órganos, realizaremos una lista de las
+direcciones de las Delegaciones y Subdelegaciones del Gobierno central
+en las diferentes provincias.
 
 Hacer las listas de una determinada manera, genera una estandarización
 que luego facilita la labor a los programadores que escriben
 aplicaciones en las que se manejan los datos.
 
-Los pasos que vamos a seguir con los dos ejemplos que vamos a
-construir son los siguientes:
+Los pasos que vamos a seguir con los dos ejemplos que construiremos
+son iguales tanto para personas como para órganos y son los
+siguientes:
 
 1. Elegir una lista para hacer.
 2. Obtener los datos.
@@ -66,10 +62,9 @@ supuesto de este tutorial, presumimos que la lista de los presidentes
 de Cantabria no está realizada, así que comenzamos a hacerla.
 
 Para hacerse una idea de lo que queremos construir, puede consultar el
-el ejemplo de los `Presidentes de Gobierno`_ del Estado
-central
+`archivo tal y como quedará`_ al final.
 
-.. _Presidentes de Gobierno: http://opengov.es/package/presidentes-gobierno_es
+.. _archivo tal y como quedará: https://spreadsheets.google.com/spreadsheet/ccc?key=0AtDiDXlt-a__dFVZVGJtZ3hOZ1hnRWdnNVB3cFYtR3c&hl=es
 
 2. Obtener los datos.
 
@@ -81,7 +76,9 @@ de las comunidades autónomas.
 
 Otro lugar donde podemos obtener los datos puede ser la Wikipedia,
 consultando la página sobre el asunto y las referencias en las que se
-basa el artículo.
+basa el artículo. Lo más relevante de la Wikipedia que hay que
+consultar no es el artículo en sí, sino las fuentes en que se basa y
+sus referencias.
 
 En este caso, utilizaremos la página de consulta del Boletín Oficial
 del Estado: http://www.boe.es/aeboe/consultas/ y le indicamos los
@@ -91,38 +88,65 @@ es una fuente primaria para las listas que queremos construir.
 En esta página, en la columna de la izquierda, encontramos un enlace a la
 `Sección II`_: Oposiciones y nombramientos desde 1968.
 
-.. _Sección II: http://www.boe.es/aeboe/consultas/bases_datos/personal.php
-
 En el formulario de búsqueda correspondiente al *"Título"*
 introducimos la cadena de texto *`Presidente de la Comunidad Autónoma
-de Cantabria`*. El buscador nos devuelve 4 resultados que enlazan a
-las siguientes páginas:
+de Cantabria`*. El buscador devuelve 6 resultados que enlazan a las
+siguientes páginas:
 
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-2011-10976
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-2011-10977
 - http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-2007-12877
 - http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-2003-13028
 - http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-2003-13029
 - http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1999-16220
 
-Ya sabemos que los datos son incompletos, puesto que desde 1978 ha
-habido más presidentes que los que se obtienen de esta búsqueda.
+Ya sabemos que los datos son incompletos, puesto que desde la
+constitución de la Comunidad Autónoma de Cantabria mediante la Ley
+Orgánica 8/1981, Estatuto de Autonomía para Cantabria, han existido
+más presidentes. La clave se halla en que anteriormente, el título no
+era el de Presidente de la Comunidad Autónoma sino Presidente de la
+Diputación Regional de Cantabria, así que realizamos otra búsqueda en
+el buscador de la `Sección II`_ del BOE, introduciendo esta vez en el
+título la cadena de búsqueda `Presidente de la Diputación Regional de
+Cantabria`.
+
+.. _Sección II: http://www.boe.es/aeboe/consultas/bases_datos/personal.php
+
+En esta ocasión, el buscador devuelve 12 resultados que enlazan a las
+siguientes páginas:
+
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1995-17321
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1995-17322
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1991-17484
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1991-17485
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1990-29992
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1990-29993
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1987-17653
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1987-17655
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1984-7259
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1984-7260
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1983-16850
+- http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1982-8646
+
+Ya tenemos por fin los datos necesarios para crear la lista de los
+presidentes cántabros.
 
 3. Archivar los datos en su ordenador.
 
-Para archivar los datos, vamos a usar siempre una hoja de cálculo. Una
-hoja de cálculo es una página que está dividida en columnas y
-filas. Vamos a utilizar este sistema de columnas y filas para hacer
-las listas de datos.
-
-Existen numerosos programas de manejo de hoja de cálculo, siendo los
-más conocidos Excel y Open Office o Free Office.
+Para crear la lista de datos y archivarlos, vamos a usar siempre una
+hoja de cálculo. Una hoja de cálculo es una página que está dividida
+en columnas y filas. Vamos a utilizar este sistema de columnas y filas
+para hacer las listas de datos. Existen numerosos programas de manejo
+de hoja de cálculo, siendo los más conocidos Excel, Open Office y Free
+Office.
 
 Abra su programa Excel, Open Office o el programa de hoja de cálculo
 que usted utilice y, en la primera fila, escriba los siguientes
 nombres en las columnas:
 
-+--+------+---------+---------+------------------+----------+---+
-|id|nombre|apellido1|apellido2|fecha_nombramiento|fecha_cese|url|
-+--+------+---------+---------+------------------+----------+---+
++--+-----+------+---------+---------+------------------+----------+---+
+|id|poder|nombre|apellido1|apellido2|fecha_nombramiento|fecha_cese|url|
++--+-----+------+---------+---------+------------------+----------+---+
 
 Estos nombres de columnas no son arbitrarios, sino que son una
 propuesta que se hace desde este proyecto. Para cada lista de datos
@@ -130,46 +154,79 @@ que pretendemos construir, Praeter Orwell hace una propuesta de
 columnas que puede consultar en la sección correspondiente de esta
 documentación: :ref:`estructura`.
 
-Visitando el Boletín Oficial del Estado podemos hacer una búsqueda
-avanzada e introducimos el criterio "Nombramiento de presidente de
-Gobierno, Comunidad de Cantabria".
+De los enlaces que hemos obtenido utilizando la búsqueda del Boletín
+Oficial del Estado sacaremos los datos que necesitamos. Los copiamos
+del BOE y los pegamos en las filas siguientes a los títulos de las
+columnas de la hoja de cálculo.
 
-Los resultados de la búsqueda nos indican quienes han sido y en qué
-fechas los nombrados, pasando a rellenar la hoja de cálculo, que
-resultaría así:
+Una vez acabado, debemos obtener la siguiente tabla:
 
-+--+------------+---------+---------+------------------+----------+-------------------------------------------------------------------------+
-|id|nombre      |apellido1|apellido2|fecha_nombramiento|fecha_cese|url                                                                      |
-+==+============+=========+=========+==================+==========+=========================================================================+
-| 1|José Joaquín|Martínez |Sieso    |23-07-1999        |30-06-2003|http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1999-16220|
-+--+------------+---------+---------+------------------+----------+-------------------------------------------------------------------------+
-| 2|Miguel Angel|Revilla  |Roiz     |30-06-2003        |02-07-2007|http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-2003-13029|
-+--+------------+---------+---------+------------------+----------+-------------------------------------------------------------------------+
-| 3|Miguel Angel|Revilla  |Roiz     |02-07-2007        |          |http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-2007-12877|
-+--+------------+---------+---------+------------------+----------+-------------------------------------------------------------------------+
++--+--------------------+------------+------------------+---------+------------------+----------+-------------------------------------------------------------------------+
+|id|poder               |nombre      |apellido1         |apellido2|fecha_nombramiento|fecha_cese|url                                                                      |
++==+====================+============+==================+=========+==================+==========+=========================================================================+
+| 1|Ejecutivo autonómico|José Antonio|Rodríguez         |Martínez |01-04-1982        |15-06-1983|http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1982-8646 |
++--+--------------------+------------+------------------+---------+------------------+----------+-------------------------------------------------------------------------+
+| 2|Ejecutivo autonómico|José Antonio|Rodríguez         |Martínez |15-06-1983        |26-03-1984|http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1983-16850|
++--+--------------------+------------+------------------+---------+------------------+----------+-------------------------------------------------------------------------+
+| 3|Ejecutivo autonómico|Angel       |Díaz de Entresotos|Mier     |26-03-1984        |27-07-1987|http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1984-7260 |
++--+--------------------+------------+------------------+---------+------------------+----------+-------------------------------------------------------------------------+
+| 4|Ejecutivo autonómico|Juan        |Hormaechea        |Cazón    |27-07-1987        |10-12-1990|http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1987-17655|
++--+--------------------+------------+------------------+---------+------------------+----------+-------------------------------------------------------------------------+
+| 5|Ejecutivo autonómico|Jaime       |Blanco            |García   |10-12-1990        |05-07-1991|http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1990-29993|
++--+--------------------+------------+------------------+---------+------------------+----------+-------------------------------------------------------------------------+
+| 6|Ejecutivo autonómico|Juan        |Hormaechea        |Cazón    |05-07-1991        |14-07-1995|http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1991-17485|
++--+--------------------+------------+------------------+---------+------------------+----------+-------------------------------------------------------------------------+
+| 7|Ejecutivo autonómico|José Joaquín|Martínez          |Sieso    |14-07-1995        |23-07-1999|http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1995-17322|
++--+--------------------+------------+------------------+---------+------------------+----------+-------------------------------------------------------------------------+
+| 8|Ejecutivo autonómico|José Joaquín|Martínez          |Sieso    |23-07-1999        |30-06-2003|http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1999-16220|
++--+--------------------+------------+------------------+---------+------------------+----------+-------------------------------------------------------------------------+
+| 9|Ejecutivo autonómico|Miguel Angel|Revilla           |Roiz     |30-06-2003        |02-07-2007|http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-2003-13029|
++--+--------------------+------------+------------------+---------+------------------+----------+-------------------------------------------------------------------------+
+|10|Ejecutivo autonómico|Miguel Angel|Revilla           |Roiz     |02-07-2007        |24-07-2011|http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-2007-12877|
++--+--------------------+------------+------------------+---------+------------------+----------+-------------------------------------------------------------------------+
+|11|Ejecutivo autonómico|Juan Ignacio|Diego             |Palacios |24-07-2011        |          |http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-2011-10977|
++--+--------------------+------------+------------------+---------+------------------+----------+-------------------------------------------------------------------------+
 
-El campo *id* es un campo numérico que se inicia en 1 y que nos
-indicará el número de la fila.
 
-El campo url se rellena con el enlace a la página del BOE donde sale
-el nombramiento.
+Completamos las filas con los siguientes datos:
 
-3. Archivar los datos en nuestro ordenador.
+Columna `id`:
+ En la columna id pondremos el ordinal de la fila de datos, en este
+ caso va del 1 al 11.
+
+Columna `poder`: 
+ En este caso, se trata de un órgano del poder ejecutivo autonómico,
+ ya que es un órgano de gobierno de una Comunidad Autónoma.
+
+Columnas `nombre`, `apellido1` y `apellido2`:
+ El nombre, primer y segundo apellido de la persona que ocupa la
+ titularidad del órgano público.
+
+Columna `fecha_nombramiento`:
+ Como fecha de nombramiento tomamos la fecha de la norma jurídica
+ publicada en el Boletín Oficial del Estado.
+
+Columna `fecha_cese`:
+ Como fecha de cese tomamos la fecha en que se produce el siguiente
+ nombramiento.
+
+Columna `url`:
+ Finalmente incluimos el enlace a la página web de la norma de
+ nombramiento del presidente.
 
 Una vez que ya hemos completado la información, la archivamos y
 nombramos el archivo con un nombre que cumpla con las siguientes
 características:
 
 En el nombre del archivo incluimos la fecha de creación, pero en
-formato año-mes-día, por ejemplo 2011-05-19 más el contenido del
-archivo, con lo que quedaría
-2011-05-19_presidentes-gobierno-cantabria.
+formato año-mes-día, por ejemplo 2011-06-25 más el contenido del
+archivo, con lo que quedaría 2011-06-25_presidentes-ccaa-cantabria.
 
 Si posteriormente a la fecha de creación del archivo lo modificamos,
-cambiamos entonces el nombre del archivo y lo nombramos de acuerdo a
-la fecha de modificación, respetando el nombre relacionado con el
+cambiaremos entonces el nombre del archivo y lo nombraremos de acuerdo
+a la fecha de modificación, respetando el nombre relacionado con el
 contenido del archivo, como por ejemplo
-2011-06-12_presidentes-gobierno-cantabria. De esta manera, siempre
+2012-06-12_presidentes-ccaa-cantabria. De esta manera, siempre
 sabremos en qué fecha actualizamos la información, lo que es un dato
 muy relevante para este tipo de contenidos.
 
@@ -183,9 +240,14 @@ utilizar Google Docs.
 
 Para facilitar que encontremos el archivo y que éste sea utilizado por
 el mayor número posible de desarrolladores, en conveniente enlazarlo
-desde http://opengov.es. Opengov.es es una web desde la que se enlazan
-(que no almacenan) archivos de opendata y es una iniciativa ciudadana
-de software libre.
+desde http://opengov.es:
+
+ http://opengov.es/package/presidentes-de-cantabria
+
+Para cualquier cuestión, también puede solicitar ayuda en el siguiente
+grupo:
+
+ http://groups.google.com/group/praeter-orwell/
 
 Delegaciones y Subdelegaciones de Gobierno en Andalucía
 -------------------------------------------------------
@@ -368,6 +430,11 @@ Finalmente, para que pueda localizarse el archivo recién escrito, lo
 enlazaremos desde Opengov.es.
 
  http://opengov.es/package/delegaciones-del-gobierno-en-andalucia
+
+Para cualquier cuestión, también puede solicitar ayuda en el siguiente
+grupo:
+
+ http://groups.google.com/group/praeter-orwell/
 
 Siguientes pasos
 ----------------
