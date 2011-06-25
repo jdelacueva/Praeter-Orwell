@@ -1,5 +1,5 @@
-Versiones del presente documento
-================================
+Versiones de este documento
+===========================
 
 Versión 0.2 (en desarrollo)
 ---------------------------

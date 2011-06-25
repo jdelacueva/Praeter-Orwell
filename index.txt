@@ -78,6 +78,7 @@ Las partes en las que se divide este proyecto son las siguientes:
    README
    LICENSE
    movecommons
+   AUTHORS
    versiones
 
 Indices y tablas

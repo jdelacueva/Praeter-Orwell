@@ -1,0 +1,13 @@
+Autoría de este documento
+=========================
+
+**Desarrollo principal**:
+
+- Javier de la Cueva http://javierdelacueva.es
+
+**Contribuciones**:
+
+Gracias a las siguientes personas, que han contribuido al presente
+proyecto en mayor o menor medida.
+
+- Juanje Ojeda http://blogs.gnome.org/juanje
