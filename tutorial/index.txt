@@ -53,7 +53,7 @@ siguientes:
 Presidentes de Cantabria
 ------------------------
 
-1. Elegir una lista para hacer.
+1. **Elegir una lista para hacer.**
 
 Previamente a realizar una elección de qué lista hacer, verificamos
 que la lista no esté hecha, para así no duplicar el trabajo. Para
@@ -66,7 +66,7 @@ Para hacerse una idea de lo que queremos construir, puede consultar el
 
 .. _archivo tal y como quedará: https://spreadsheets.google.com/spreadsheet/ccc?key=0AtDiDXlt-a__dFVZVGJtZ3hOZ1hnRWdnNVB3cFYtR3c&hl=es
 
-2. Obtener los datos.
+2. **Obtener los datos.**
 
 El lugar del que obtenemos los datos puede ser muy variado. Lo más
 interesante siempre es obtenerlos de fuentes oficiales como, por
@@ -131,7 +131,7 @@ siguientes páginas:
 Ya tenemos por fin los datos necesarios para crear la lista de los
 presidentes cántabros.
 
-3. Archivar los datos en su ordenador.
+3. **Archivar los datos en su ordenador.**
 
 Para crear la lista de datos y archivarlos, vamos a usar siempre una
 hoja de cálculo. Una hoja de cálculo es una página que está dividida
@@ -187,7 +187,6 @@ Una vez acabado, debemos obtener la siguiente tabla:
 |11|Ejecutivo autonómico|Juan Ignacio|Diego             |Palacios |24-07-2011        |          |http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-2011-10977|
 +--+--------------------+------------+------------------+---------+------------------+----------+-------------------------------------------------------------------------+
 
-
 Completamos las filas con los siguientes datos:
 
 Columna `id`:
@@ -230,13 +229,13 @@ contenido del archivo, como por ejemplo
 sabremos en qué fecha actualizamos la información, lo que es un dato
 muy relevante para este tipo de contenidos.
 
-4. Subir los datos a Internet.
+4. **Subir los datos a Internet.**
 
 Una vez que ya tenemos el archivo creado y archivado en nuestro
 ordenador, queda ponerlo a disposición pública. Lo más fácil es
 utilizar Google Docs.
 
-5. Enlazar los datos desde http://opengov.es
+5. **Enlazar los datos desde http://opengov.es**
 
 Para facilitar que encontremos el archivo y que éste sea utilizado por
 el mayor número posible de desarrolladores, en conveniente enlazarlo
@@ -260,7 +259,7 @@ Recomiendo que antes de empezar y para hacerse una idea de la labor,
 consulte usted en esta `hoja de Google Docs`_ el archivo que vamos a
 construir.
 
-1. Elegir una lista para hacer.
+1. **Elegir una lista para hacer.**
 
 Al igual que en el anterior ejemplo de este tutorial, antes de hacer
 una lista buscaríamos si la lista que pretendemos hacer ya está
@@ -269,7 +268,7 @@ realizada, para no repetir un trabajo ya hecho.
 Imaginemos que no está realizada la lista de las Delegaciones en
 Andalucía, así que es ésta la que decidimos escribir.
 
-2. Obtener los datos.
+2. **Obtener los datos.**
 
 Los datos que nos interesan los vamos a obtener de la web del
 `Ministerio de Política Territorial y Administración Pública`_, donde
@@ -359,7 +358,7 @@ Gobierno`_ encontramos los siguientes datos::
 
 .. _`Subdelegaciones del Gobierno`: http://www.mpt.gob.es/ministerio/delegaciones_gobierno/delegaciones/andalucia/subdelegaciones.html
 
-3. Archivar los datos en su ordenador.
+3. **Archivar los datos en su ordenador.**
 
 Es importante guardar una copia en su ordenador de los datos que va a
 construir. De esta manera, aseguramos la independencia
@@ -408,7 +407,7 @@ Se puede observar el resultado final en una `hoja de Google Docs`_, donde
 quedan ya los datos de la Delegación y de las Subdelegaciones en una
 tabla y en un formato que ya todos pueden utilizar.
 
-4. Subir los datos a Internet.
+4. **Subir los datos a Internet.**
 
 Una vez que ha archivado los datos en un archivo de su ordenador, lo
 subimos a cualquier servidor en Internet que permita descargarlo sin
@@ -424,7 +423,7 @@ Google Docs`_.
 
 .. _`hoja de Google Docs`: https://spreadsheets.google.com/spreadsheet/ccc?key=0AtDiDXlt-a__dEFaaklqeV90T05KNmczU2NiSU1VVVE&hl=es
 
-5. Enlazar los datos desde http://opengov.es
+5. **Enlazar los datos desde http://opengov.es.**
 
 Finalmente, para que pueda localizarse el archivo recién escrito, lo
 enlazaremos desde Opengov.es.

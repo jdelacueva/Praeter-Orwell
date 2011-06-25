@@ -1,5 +1,5 @@
-¿Dónde y cómo almacenar los datos?
-==================================
+¿Dónde almacenar los datos?
+===========================
 
 De lo que se trata es de poder obtener en cualquier momento y de la
 manera más fácil posible, una copia de todos los datos, con
