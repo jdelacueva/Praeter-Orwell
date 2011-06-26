@@ -233,7 +233,9 @@ muy relevante para este tipo de contenidos.
 
 Una vez que ya tenemos el archivo creado y archivado en nuestro
 ordenador, queda ponerlo a disposición pública. Lo más fácil es
-utilizar Google Docs.
+utilizar Google Docs, si bien no es el sistema óptimo ya que supone
+una dependencia tecnológica. En la sección :ref:`almacenamiento` se
+trata específicamente este asunto.
 
 5. **Enlazar los datos desde http://opengov.es**
 
@@ -242,11 +244,6 @@ el mayor número posible de desarrolladores, en conveniente enlazarlo
 desde http://opengov.es:
 
  http://opengov.es/package/presidentes-de-cantabria
-
-Para cualquier cuestión, también puede solicitar ayuda en el siguiente
-grupo:
-
- http://groups.google.com/group/praeter-orwell/
 
 Delegaciones y Subdelegaciones de Gobierno en Andalucía
 -------------------------------------------------------
@@ -429,6 +426,9 @@ Finalmente, para que pueda localizarse el archivo recién escrito, lo
 enlazaremos desde Opengov.es.
 
  http://opengov.es/package/delegaciones-del-gobierno-en-andalucia
+
+¿Dónde pedir ayuda?
+-------------------
 
 Para cualquier cuestión, también puede solicitar ayuda en el siguiente
 grupo:

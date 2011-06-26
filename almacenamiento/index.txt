@@ -1,3 +1,5 @@
+.. _almacenamiento:
+
 ¿Dónde almacenar los datos?
 ===========================
 
@@ -15,12 +17,22 @@ mismos.
              gratuito.
 
 Los sistemas de almacenamiento pueden ser muchos y variados siendo
-válidos los siguientes sistemas:
+válidos muchos sistemas, teniendo siempre en cuenta que ante todo se
+debe primar la independencia tecnológica y elegir un sistema en el que
+uno no dependa de la arbitraria interpretación de los términos de uso
+que pueda realizar un proveedor. Los sistemas que pueden utilizarse
+son los siguientes, si bien siempre es preferible alojarlos en un
+servidor propio:
 
 - Google Docs.
 - Github.
 - Un repositorio en un servidor propio.
 - Un archivo csv enlazado desde cualquier página.
+
+Si no dispone de posibilidad de almacenar el archivo, siempre alguna
+de las personas suscritas al grupo de ayuda pueden encargarse de ello:
+
+ http://groups.google.com/group/praeter-orwell/
 
 El enlace a los datos: opengov.es
 ---------------------------------

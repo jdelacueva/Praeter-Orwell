@@ -3,6 +3,12 @@
 ¿Cómo han de estructurarse los datos?
 =====================================
 
+Los datos los vamos a estructurar en un formato específico, que es el
+único del que se ocupa este proyecto. No obstante, también señalaremos
+los datos relevantes para :ref:`campos-bbdd` y para la web semántica,
+:ref:`ojl`, para así facilitar la comprensión de los campos que han de
+interrelacionarse.
+
 Archivos CSV
 ------------
 
@@ -54,12 +60,230 @@ tipo de formato es trivial.
 
    Propuesta para columnas de archivos CSV.
 
+.. _campos-bbdd:
+
 Campos de bases de datos SQL
 ----------------------------
 
-.. todo::
+Agentes: Personas y órganos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   Propuesta para campos de bases de datos SQL..
+**Campos comunes:**
+
+Las personas y los órganos son los elementos subjetivos del sistema y
+tienen una información común, consistente en la siguiente:
+
+- Domicilios [lista]
+- Teléfonos [lista]
+- Urls [lista]
+- Direcciones de correos electrónicos [lista]
+- Cuentas corrientes [lista]
+- Fecha de creación del registro [campo de tiempo]
+- Fecha de modificación del registro [campo de tiempo]
+- Nacionalidad
+
+**Campos de las personas:**
+
+Además de los campos comunes, los modelos de personas dispondrán de
+los siguientes campos:
+
+- Nombre
+- Primer apellido
+- Segundo apellido
+- Lugar de nacimiento
+- Fecha de nacimiento
+- Lugar de defunción
+- Fecha de defunción
+- Género
+- Estado civil
+- Cónyuge [lista]
+- Progenitores [lista]
+- Descendientes [lista]
+- Estudios
+- Trabajo
+- Nombramientos [lista]
+- Número identificación / Pasaporte
+- Tarjetas de crédito [lista]
+
+**Campos de los organismos:**
+
+Además de los campos comunes, los modelos de órganos dispondrán de
+los siguientes campos:
+
+- Nombre
+- Poder
+- Organo superior
+- Jurisdicción
+- Norma jurídica constituyente
+- Código de identificación
+
+Información
+~~~~~~~~~~~
+
+Para clasificar la información producida por las personas utilizando
+los órganos, lo más aconsejable es utilizar los campos definidos por
+Dublin Core en sus DCMI-Terms:
+
+ http://dublincore.org/documents/dcmi-terms/
+
+Si se construye la base de datos relacional utilizando las categorías
+de Dublin Core, se facilita la labor de semantizar las plantillas HTML
+en las que se vuelque el contenido en aplicaciones web mediante RDFa.
+
+Para navegar por las categorías de DCMI-Terms es muy útil el siguiente
+enlace:
+
+ http://dcmi.kc.tsukuba.ac.jp/dcregistry/navigateServlet
+
+Podemos poner como ejemplo de estos campos una clase en lenguaje
+Python y para `Mongo Engine`_. Modificarla para cualquier otro tipo de
+lenguaje o base de datos es sencillo y lo dejamos como ejercicio para
+el programador de la aplicación de gestión::
+
+  class Information(Document):
+      """
+      Represents an information using dcterms.  Comments to each field
+      are the dcterms:description of the DCMI property.
+      """
+      # A summary of the resource
+      dcterms_abstract = StringField()
+      # Information about who can access the resource or an indication
+      # of its security status.
+      dcterms_accessRights = StringField()
+      # The method by which items are added to a collection.
+      dcterms_accrualMethod = StringField()
+      # The frequency with which items are added to a collection.
+      dcterms_accrualPeriodicity = StringField()
+      # The policy governing the addition of items to a collection.
+      dcterms_accrualPolicy = StringField()
+      # An alternative name for the resource.
+      dcterms_alternative = StringField()
+      # A class of entity for whom the resource is intended or useful.
+      dcterms_audience = ListField(ReferenceField(Agent))
+      # Date (often a range) that the resource became or will become available.
+      dcterms_available = DateTimeField()
+      # A bibliographic reference for the resource.
+      dcterms_bibliographicCitation  = ReferenceField('self')
+      # An established standard to which the described resource conforms.
+      dcterms_conformsTo = StringField()
+      # An entity responsible for making contributions to the resource.
+      dcterms_contributor = ListField(ReferenceField(Agent))
+      # The spatial or temporal topic of the resource, the spatial
+      # applicability of the resource, or the jurisdiction under which
+      # the resource is relevant.
+      dcterms_coverage = StringField()
+      # Date of creation of the resource.
+      dcterms_created = DateTimeField()
+      # An entity primarily responsible for making the resource.
+      dcterms_creator = ListField(ReferenceField(Agent))
+      # A point or period of time associated with an event in the
+      # lifecycle of the resource.
+      dcterms_date = DateTimeField()
+      # Date of acceptance of the resource.
+      dcterms_dateAccepted = DateTimeField()
+      # Date of copyright.
+      dcterms_dateCopyrighted = DateTimeField()
+      # Date of submission of the resource.
+      dcterms_dateSubmitted = DateTimeField()
+      # An account of the resource.
+      dcterms_description = StringField()
+      # Audience Education Level.
+      dcterms_educationLevel = StringField()
+      # The size or duration of the resource.
+      dcterms_extent = StringField()
+      # The file format, physical medium, or dimensions of the resource.
+      dcterms_format = StringField() 
+      # A related resource that is substantially the same as the
+      # pre-existing described resource, but in another format.
+      dcterms_hasFormat = ReferenceField('self')
+      # A related resource that is included either physically or
+      # logically in the described resource.
+      dcterms_hasPart = ReferenceField('self')
+      # A related resource that is a version, edition, or adaptation of
+      # the described resource.
+      dcterms_hasVersion = ReferenceField('self')
+      # An unambiguous reference to the resource within a given context.
+      dcterms_identifier = StringField()
+      # A process, used to engender knowledge, attitudes and skills,
+      # that the described resource is designed to support.
+      dcterms_instructionalMethod = StringField()
+      # A related resource that is substantially the same as the
+      # described resource, but in another format.
+      dcterms_isFormatOf = ReferenceField('self')
+      # A related resource in which the described resource is physically
+      # or logically included.
+      dcterms_isPartOf = ReferenceField('self')
+      # A related resource that references, cites, or otherwise points
+      # to the described resource.
+      dcterms_isReferencedBy = ReferenceField('self')
+      # A related resource that supplants, displaces, or supersedes the
+      # described resource.
+      dcterms_isReplacedBy = ReferenceField('self')
+      # A related resource that requires the described resource to
+      # support its function, delivery, or coherence.
+      dcterms_isRequiredBy = ReferenceField('self')
+      # A related resource of which the described resource is a version,
+      # edition, or adaptation.
+      dcterms_isVersionOf = ReferenceField('self')
+      # Date Issued
+      dcterms_issued = DateTimeField()
+      # A language of the resource.
+      dcterms_language = StringField()
+      # A legal document giving official permission to do something with
+      # the resource.
+      dcterms_license = StringField()
+      # An entity that mediates access to the resource and for whom the
+      # resource is intended or useful.
+      dcterms_mediator = ListField(ReferenceField(Agent))
+      # The material or physical carrier of the resource.
+      dcterms_medium = StringField()
+      # A relationship between a resource and a vocabulary encoding
+      # scheme which indicates that the resource is a member of a set.
+      dcam_memberOf = ReferenceField('self')
+      # Date on which the resource was changed.
+      dcterms_modified = DateTimeField()
+      # A statement of any changes in ownership and custody of the
+      # resource since its creation that are significant for its
+      # authenticity, integrity, and interpretation.
+      dcterms_provenance = ReferenceField('self')
+      # An entity responsible for making the resource available.
+      dcterms_publisher = ReferenceField(Agent)
+      # A related resource that is referenced, cited, or otherwise
+      # pointed to by the described resource.
+      dcterms_references = ReferenceField('self')
+      # A related resource.
+      dcterms_relation  = ReferenceField('self') 
+      # A related resource that is supplanted, displaced, or superseded
+      # by the described resource.
+      dcterms_replaces = ReferenceField('self')
+      # A related resource that is required by the described resource to
+      # support its function, delivery, or coherence.
+      dcterms_requires = ReferenceField('self')
+      # Information about rights held in and over the resource.
+      dcterms_rights = StringField()
+      # A person or organization owning or managing rights over the
+      # resource.
+      dcterms_rightsHolder = ReferenceField(Agent)
+      # A related resource from which the described resource is derived.
+      dcterms_source = ReferenceField('self')
+      # Spatial characteristics of the resource.
+      dcterms_spatial = StringField()
+      # The topic of the resource.
+      dcterms_subject = StringField()
+      # A list of subunits of the resource.
+      dcterms_tableOfContents = StringField()
+      # Temporal characteristics of the resource.
+      dcterms_temporal = StringField()
+      # A name given to the resource.
+      dcterms_title = StringField()
+      # The nature or genre of the resource.
+      dcterms_type = StringField()
+      # Date (often a range) of validity of a resource.
+      dcterms_valid = DateTimeField()
+
+.. _Mongo Engine: http://mongoengine.org/
+
+.. _ojl:
 
 Ontología Jurídica Libre
 ------------------------
