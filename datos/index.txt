@@ -25,8 +25,6 @@ necesitamos se indican en la siguiente tabla:
 |                |Consejeros ...) |               |(sentencias,        |
 |                |                |               |informes...)        |
 +----------------+----------------+---------------+--------------------+
-|                       Organización territorial                       |
-+----------------+----------------+---------------+--------------------+
 |Legislativos    |Parlamentarios  |Parlamentos    |Normas autonómicas  |
 |autonómicos     |                |               |                    |
 +----------------+----------------+---------------+--------------------+
@@ -38,6 +36,8 @@ necesitamos se indican en la siguiente tabla:
 |local           |provinciales,   |provinciales y |                    |
 |                |alcaldes,       |municipios     |                    |
 |                |concejales      |               |                    |
++----------------+----------------+---------------+--------------------+
+|                       **Organización territorial**                   |
 +----------------+----------------+---------------+--------------------+
 
 Los datos anteriores no son suficientes, pero sí son necesarios. Los
@@ -147,8 +147,9 @@ apartados:
    ejecutivo
    legislativo
    judicial
-   territorio
    otros_organos
+   ejecutivos-autonomicos
+   territorio
 
 Otra información
 ----------------

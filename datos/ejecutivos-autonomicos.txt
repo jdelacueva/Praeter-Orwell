@@ -1,0 +1,31 @@
+.. _ejecutivos-autonomicos:
+
+Ejecutivos autonómicos
+======================
+
++----------------------+------------------------+-----------------------------------+-----------------------------------+
+|Poder                 |Personas                |Organos                            |Información producida              |
++======================+========================+===================================+===================================+
+|Ejecutivos autonómicos|Políticos y funcionarios|Gobierno y órganos administrativos |Actos administrativos y reglamentos|
++----------------------+------------------------+-----------------------------------+-----------------------------------+
+
+Políticos y funcionarios
+------------------------
+
+- Presidentes de la Comunidad de Cantabria
+
+  http://opengov.es/package/presidentes-de-cantabria
+
+- Presidentes de la Xunta de Galicia
+
+  http://opengov.es/package/presidentes-de-galicia
+
+Gobierno y órganos administrativos
+----------------------------------
+
+Sin datos
+
+Información producida
+---------------------
+
+Sin datos

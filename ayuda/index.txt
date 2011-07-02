@@ -27,13 +27,16 @@ Luchando por una Ley de transparencia
 -------------------------------------
 
 Necesitamos una Ley de transparencia de los datos públicos y quienes
-en este momento se hallan más involucrados en esta reivindicación son
-la `Coalición Pro Acceso`_ y la `Asociación Pro Bono Público`_. Es por
-ello que apoyarles a ellos es ayudar a este proyecto, pues nos mueven
-intereses comunes.
+en este momento se hallan más involucrados en esta reivindicación, a
+nivel nacional, son la `Coalición Pro Acceso`_ y la `Asociación Pro
+Bono Público`_ y, a nivel europeo, `Access Info Europe`_.
 
-.. _`Coalición Pro Acceso`: http://www.proacceso.org/
-.. _`Asociación Pro Bono Público`: http://blog.probp.org/
+Es por ello que apoyarles a ellos es ayudar a este
+proyecto, pues nos mueven intereses comunes.
+
+.. _Coalición Pro Acceso: http://www.proacceso.org/
+.. _Asociación Pro Bono Público: http://blog.probp.org/
+.. _Access Info Europe: http://www.access-info.org/
 
 Mejorando el código de la estructura de los datos
 -------------------------------------------------

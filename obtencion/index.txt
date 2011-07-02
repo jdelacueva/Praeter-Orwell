@@ -72,6 +72,64 @@ scraping, como por ejemplo:
 .. _Módulo lxml: http://lxml.de/
 .. _Módulo html5lib: http://code.google.com/p/html5lib/
 
+La estructura de directorios que utilizo para trabajar con las
+técnicas de scraping consiste en un directorio donde almaceno los
+datos en bruto, otro en el que almaceno los datos una vez limpios y
+otro en el que almaceno los scripts que utilizo para generar los
+datos::
+
+    /datos
+        /clean-data
+            /ejecutivos-autonomicos
+                /personas
+                    2011-06-25_presidentes-ccaa-cantabria.csv
+            /poder-ejecutivo
+                /personas
+                    2011-07-02_presidentes-gobierno-es.csv
+                /organos
+                /informacion
+            /poder-legislativo
+                /personas
+                /organos
+                /informacion
+                    2010-11-09_leyes-organicas.csv
+                    2010-11-11_reales-decretos-legislativos.csv
+                    2010-11-12_leyes-ordinarias.csv
+                    2010-11-13_normas.n3
+                    2010-11-13_normas.rdf
+            /poder-judicial
+                /personas
+                /organos
+                /informacion
+            /territorio
+                es_territorial_entities.csv
+        /raw-data
+            /poder-ejecutivo
+                /personas
+                /organos
+                /informacion
+            /poder-legislativo
+                /personas
+                /organos
+                /informacion
+            /poder-judicial
+                /personas
+                /organos
+                /informacion
+            /territorio
+    /scripts
+        __init__.py
+        common.py
+        congreso.py
+        normas_csv2n3.py
+        senado.py
+        ...
+
+Esta propuesta de directorios se fundamenta en la tríada personas,
+órganos e información y en la estructura de la información relevante a
+la que se refiere la sección :ref:`datos` y permite localizar más
+facilmente los datos en los que uno se halle trabajando.
+
 Ley de transparencia
 --------------------
 
