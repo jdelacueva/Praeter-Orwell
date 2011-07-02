@@ -18,6 +18,10 @@ Parlamentarios
 
   https://spreadsheets.google.com/spreadsheet/ccc?key=0AtDiDXlt-a__dFFFRXA0cGt3VDRmc0l4UXJMTXZ3Z0E&hl=es
 
+- Senadores
+
+  http://opengov.es/package/senadores
+
 Parlamentos
 -----------
 
