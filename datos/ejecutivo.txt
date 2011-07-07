@@ -27,7 +27,8 @@ Sin datos.
 Actos administrativos y reglamentos
 -----------------------------------
 
-- Relación de Ordenes ministeriales desde la fecha de publicación de
-  la Constitución española hasta el día 2 de julio de 2011.
+- Relación de las 19.652 órdenes ministeriales desde la fecha de
+  publicación de la Constitución española hasta el día 2 de julio de
+  2011.
 
   http://opengov.es/package/ordenes-ministeriales
