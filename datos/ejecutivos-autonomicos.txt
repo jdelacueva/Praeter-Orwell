@@ -12,13 +12,76 @@ Ejecutivos autonómicos
 Políticos y funcionarios
 ------------------------
 
-- Presidentes de la Comunidad de Cantabria
+(Por orden alfabético de nombre oficial del órgano)
+
+- Presidentes del Consejo de Gobierno de Andalucía
+
+  http://opengov.es/package/presidentes-de-andalucia
+
+- Presidentes del Consejo de Gobierno del Principado de Asturias
+
+  http://opengov.es/package/presidentes-de-asturias
+
+- Presidentes del Eusko Jaurlaritza – Gobierno Vasco
+
+  http://opengov.es/package/presidentes-de-pais-vasco
+
+- Presidentes del Gobierno de Aragón
+
+  http://opengov.es/package/presidentes-de-aragon
+
+- Presidentes del Gobierno de Canarias
+
+  http://opengov.es/package/presidentes-de-canarias
+
+- Presidentes del Gobierno de Cantabria
 
   http://opengov.es/package/presidentes-de-cantabria
+
+- Presidentes del Gobierno de la Comunidad de Madrid
+
+  http://opengov.es/package/presidentes-de-madrid
+
+- Presidentes del Gobierno de la Región de Murcia
+
+  http://opengov.es/package/presidentes-de-murcia
+
+- Presidentes del Gobierno de La Rioja
+
+  http://opengov.es/package/presidentes-de-la-rioja
+
+- Presidentes del Gobierno de Navarra
+
+  http://opengov.es/package/presidentes-de-navarra
+
+- Presidentes del Govern de les Illes Balears
+
+  http://opengov.es/package/presidentes-de-baleares
+
+- Presidentes de la Generalitat de Catalunya
+
+  http://opengov.es/package/presidentes-de-cataluna
+
+- Presidentes de la Generalitat Valenciana
+
+  http://opengov.es/package/presidentes-de-valencia
+
+- Presidentes de la Junta de Castilla y León
+
+  http://opengov.es/package/presidentes-de-castilla-y-leon
+
+- Presidentes de la Junta de Castilla-La Mancha
+
+  http://opengov.es/package/presidentes-de-castilla-la-mancha
+
+- Presidentes de la Junta de Extremadura
+
+  http://opengov.es/package/presidentes-de-extremadura
 
 - Presidentes de la Xunta de Galicia
 
   http://opengov.es/package/presidentes-de-galicia
+
 
 Gobierno y órganos administrativos
 ----------------------------------

@@ -8,6 +8,9 @@ Autoría de este documento
 **Contribuciones**:
 
 Gracias a las siguientes personas, que han contribuido al presente
-proyecto en mayor o menor medida.
+proyecto en mayor o menor medida (por orden alfabético de apellido):
+
+- Marcos Granja
 
 - Juanje Ojeda http://blogs.gnome.org/juanje
+
