@@ -1,15 +1,13 @@
 Otros Organos constitucionales
 ==============================
 
-+----------------+----------------+---------------+---------------------+
-|Poder           |Personas        |Organos        |Información producida|
-+================+================+===============+=====================+
-|Otros órganos   |Miembros        |Organos        |Nombre de la         |
-|constitucionales|(Magistrados,   |               |información          |
-|                |Consejeros ...) |               |(sentencias,         |
-|                |                |               |informes...)         |
-+----------------+----------------+---------------+---------------------+
-
++------------------------------+----------------+--------+-------------------------+
+|Poder                         |Personas        |Organos |Información producida    |
++==============================+================+========+=========================+
+|Otros órganos constitucionales|Miembros        |Organos |Nombre de la información |
+|                              |(Magistrados,   |        |(sentencias, informes...)|
+|                              |Consejeros...)  |        |                         |
++------------------------------+----------------+--------+-------------------------+
 
 Personas
 --------
@@ -19,7 +17,9 @@ Sin datos.
 Organos
 -------
 
-Sin datos.
+- Organos constitucionales 
+
+  https://spreadsheets.google.com/spreadsheet/ccc?key=0AtDiDXlt-a__dHEteklITjFJWGFPdmUyRUVwOVF0c3c&hl=es
 
 Información producida
 ---------------------

@@ -1,0 +1,59 @@
+.. _constituyente:
+
+Poder constituyente
+===================
+
++----------------+----------------+---------------------+----------------------+
+|Poder           |Personas        |Organos              |Información producida |
++================+================+=====================+======================+
+|Constituyente   |Parlamentarios  |Cortes constituyentes|Constitución          |
+|                |constituyentes  |                     |                      |
++----------------+----------------+---------------------+----------------------+
+
+El poder constituyente no es una excepción de la tríada informacional
+que se propone como explicación en este proyecto pero sí tiene una
+particularidad consistente en el actor singular, que es el soberano
+constituyente que finalmente interviene mediante referéndum, así como el órgano
+utilizado, que en el caso de la Constitución española fueron las
+Cortes constituyentes.
+
+No obstante, en su actual redacción, la Constitución española permite
+una reforma que se efectúa sin necesidad de intervención del poder
+constituyente, permitiéndose el caso (artículo 167.3 CE) en el que no
+es necesaria la ratificación en referéndum, por lo que los agentes
+intervinientes serán los diputados y senadores que generarán la
+información (el texto reformado de la Constitución) a través de los
+órganos parlamentarios Congreso y Senado.
+
+.. graphviz::
+
+   digraph constituyente {
+    node [shape=box];
+    node [style=filled, color=lightblue1];
+                "Constitución española";
+                "Constitución reformada";
+    node [style=filled, color="#e8fcac"];
+                "Parlamentarios constituyentes";
+                "Diputados";
+                "Senadores";
+    node [shape=ellipse];
+    node [style=filled, color=lightgrey];
+                "Cortes constituyentes";
+                "Congreso";
+                "Senado";
+    "Parlamentarios constituyentes" -> "Cortes constituyentes";
+    "Cortes constituyentes" -> "Constitución española";
+    "Diputados" -> "Congreso";
+    "Senadores" -> "Senado";
+    "Constitución española" -> "Congreso";
+    "Constitución española" -> "Senado" ; 
+    "Congreso" -> "Constitución reformada";
+    "Senado" -> "Constitución reformada";
+   }
+
+Constitución española
+---------------------
+
+- Constitución española y su reforma.
+
+  https://spreadsheets.google.com/spreadsheet/ccc?key=0AtDiDXlt-a__dFp0TlN0cU9aSlhfSWIwQm9tSHNyZWc&hl=es

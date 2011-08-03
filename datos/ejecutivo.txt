@@ -1,3 +1,5 @@
+.. _ejecutivo:
+
 Poder ejecutivo
 ===============
 
@@ -22,7 +24,14 @@ Políticos y funcionarios
 Gobierno y órganos administrativos
 ----------------------------------
 
-Sin datos.
+- Relación de altos órganos de la Administración central del Estado desde
+  1977 hasta 1983.
+
+  https://spreadsheets0.google.com/spreadsheet/ccc?key=0AtDiDXlt-a__dGJkeXdkVEtmYXhXOXlkaXNVOTF4YkE&hl=es
+
+- Delegaciones del Gobierno en Andalucía.
+
+  https://spreadsheets0.google.com/spreadsheet/ccc?key=0AtDiDXlt-a__dEFaaklqeV90T05KNmczU2NiSU1VVVE&hl=es
 
 Actos administrativos y reglamentos
 -----------------------------------

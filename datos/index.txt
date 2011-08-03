@@ -7,38 +7,40 @@ Para cualquier supuesto de control del poder por parte de los
 ciudadanos utilizando la tecnología a nuestro alcance, los datos que
 necesitamos se indican en la siguiente tabla:
 
-+----------------+----------------+---------------+--------------------+
-|Poder           |Personas        |Organos        |Información         |
-|                |                |               |producida           |
-+================+================+===============+====================+
-|Ejecutivo       |Políticos y     |Gobierno y     |Actos               |
-|                |funcionarios    |órganos        |administrativos y   |
-|                |                |administrativos|reglamentos         |
-+----------------+----------------+---------------+--------------------+
-|Legislativo     |Parlamentarios  |Parlamentos    |Leyes               |
-+----------------+----------------+---------------+--------------------+
-|Judicial        |Jueces y        |Juzgados y     |Resoluciones        |
-|                |Magistrados     |Tribunales     |judiciales          |
-+----------------+----------------+---------------+--------------------+
-|Otros órganos   |Miembros        |Organos        |Nombre de la        |
-|constitucionales|(Magistrados,   |               |información         |
-|                |Consejeros ...) |               |(sentencias,        |
-|                |                |               |informes...)        |
-+----------------+----------------+---------------+--------------------+
-|Legislativos    |Parlamentarios  |Parlamentos    |Normas autonómicas  |
-|autonómicos     |                |               |                    |
-+----------------+----------------+---------------+--------------------+
-|Ejecutivos      |Políticos y     |Gobierno y     |Actos               |
-|autonómicos     |funcionarios    |órganos        |administrativos y   |
-|                |                |administrativos|reglamentos         |
-+----------------+----------------+---------------+--------------------+
-|Administración  |Diputados       |Diputaciones   |Normativa local     |
-|local           |provinciales,   |provinciales y |                    |
-|                |alcaldes,       |municipios     |                    |
-|                |concejales      |               |                    |
-+----------------+----------------+---------------+--------------------+
-|                       **Organización territorial**                   |
-+----------------+----------------+---------------+--------------------+
++----------------+----------------+----------------------+--------------------+
+|Poder           |Personas        |Organos               |Información         |
+|                |                |                      |producida           |
++================+================+======================+====================+
+|Constituyente   |Pueblo soberano |Cortes constituyentes |Constitución        |
++----------------+----------------+----------------------+--------------------+
+|Ejecutivo       |Políticos y     |Gobierno y órganos    |Actos               |
+|                |funcionarios    |administrativos       |administrativos y   |
+|                |                |                      |reglamentos         |
++----------------+----------------+----------------------+--------------------+
+|Legislativo     |Parlamentarios  |Parlamentos           |Leyes               |
++----------------+----------------+----------------------+--------------------+
+|Judicial        |Jueces y        |Juzgados y Tribunales |Resoluciones        |
+|                |Magistrados     |                      |judiciales          |
++----------------+----------------+----------------------+--------------------+
+|Otros órganos   |Miembros        |Organos               |Nombre de la        |
+|constitucionales|(Magistrados,   |                      |información         |
+|                |Consejeros ...) |                      |(sentencias,        |
+|                |                |                      |informes...)        |
++----------------+----------------+----------------------+--------------------+
+|Legislativos    |Parlamentarios  |Parlamentos           |Normas autonómicas  |
+|autonómicos     |                |                      |                    |
++----------------+----------------+----------------------+--------------------+
+|Ejecutivos      |Políticos y     |Gobierno y órganos    |Actos               |
+|autonómicos     |funcionarios    |administrativos       |administrativos y   |
+|                |                |                      |reglamentos         |
++----------------+----------------+----------------------+--------------------+
+|Administración  |Diputados       |Diputaciones          |Normativa local     |
+|local           |provinciales,   |provinciales y        |                    |
+|                |alcaldes,       |municipios            |                    |
+|                |concejales      |                      |                    |
++----------------+----------------+----------------------+--------------------+
+|                       **Organización territorial**                          |
++----------------+----------------+---------------+---------------------------+
 
 Los datos anteriores no son suficientes, pero sí son necesarios. Los
 datos se han clasificado en función de una tríada compuesta por dos
@@ -144,6 +146,7 @@ apartados:
 .. toctree::
    :maxdepth: 2
 
+   constituyente
    ejecutivo
    legislativo
    judicial
