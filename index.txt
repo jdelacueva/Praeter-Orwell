@@ -3,6 +3,9 @@
 Praeter Orwell
 ==============
 
+Descripción del proyecto
+------------------------
+
 Praeter Orwell es un proyecto que propone un marco básico para
 desarrollar posteriormente aplicaciones de control del poder político
 por parte de los ciudadanos mediante la gestión de la información
@@ -82,7 +85,7 @@ Las partes en las que se divide este proyecto son las siguientes:
    versiones
 
 Indices y tablas
-================
+----------------
 
 * :ref:`genindex`
 * :ref:`search`
