@@ -29,6 +29,10 @@ Gobierno y órganos administrativos
 
   https://spreadsheets0.google.com/spreadsheet/ccc?key=0AtDiDXlt-a__dGJkeXdkVEtmYXhXOXlkaXNVOTF4YkE&hl=es
 
+- URLs de las referencias de los Consejos de Ministros
+
+  https://gist.github.com/3997640
+
 - Delegaciones del Gobierno en Andalucía.
 
   https://spreadsheets0.google.com/spreadsheet/ccc?key=0AtDiDXlt-a__dEFaaklqeV90T05KNmczU2NiSU1VVVE&hl=es

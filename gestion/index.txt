@@ -48,10 +48,7 @@ electrónicos.
 
 .. _Hacktivistas.net: http://hacktivistas.net
 
-La campaña está desactivada y se realizó a través de Xmailer. Pueden
-consultarse las características de la acción en el siguiente enlace:
-
- http://hacktivistas.net/content/24-horas-para-la-votaci%C3%B3n-de-la-ley-sinde-
+La campaña está desactivada y se realizó a través de Xmailer.
 
 La gestión de datos en otros países
 -----------------------------------
